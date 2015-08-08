@@ -5,6 +5,7 @@
 *.dbgdt
 *.wsdt
 *.rar
+*.map
 *.zip
 *.tmp
 si/*
@@ -13,4 +14,7 @@ si/*
 .svn
 *.bak
 .output
-!Makefile
+!demos/sdk_shell/ZC/src/zc/Makefile
+!demos/sdk_shell/ZC/src/tropicssl/Makefile
+!demos/sdk_shell/ZC/src/crc/Makefile
+!demos/sdk_shell/ZC/src/aes/Makefile
