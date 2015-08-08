@@ -1,0 +1,21 @@
+====================debug information===================
+target id = 31c80002
+assertion line = 5555
+exception pc = 0x009448e0 cmnos_timer_done /opt/tmp/olcaKF1.1.2/sw/target/src/os/common/cmnos_timer.c
+bad virtual pc = 0x00955b31  _nvram_configure /opt/tmp/olcaKF1.1.2/sw/target/src/misc/nvram/nvram.c
+program state = 0x00060330
+cause = 0x00000009
+=========================================================
+
+------------------------stack end------------------------------
+#0  0x009448e0 in cmnos_timer_done (arg TBD) /opt/tmp/olcaKF1.1.2/sw/target/src/os/common/cmnos_timer.c
+#1  0x00a06ede in qcom_timer_delete (arg TBD) /opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_timer.c
+#2  0x00a06f18 in qcom_thread_msleep (arg TBD) /opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_timer.c
+#3  0x00a02a2c in QC_SendDataToMoudle (arg TBD) /mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c
+#4  0x00a0478f in PCT_SendMoudleTimeout (arg TBD) /mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_protocol_controller.c
+#5  0x00a05480 in TIMER_TimeoutAction (arg TBD) /mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_timer.c
+#6  0x00a0292c in QC_timer_callback (arg TBD) /mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c
+#7  0x00944939 in cmnos_timer_handler (arg TBD) /opt/tmp/olcaKF1.1.2/sw/target/src/os/common/cmnos_timer.c
+#8  0x009428fb in cmnos_lf_timer_dsr (arg TBD) /opt/tmp/olcaKF1.1.2/sw/target/src/os/common/cmnos_intr.c
+#9  0x00942bbc in cmnos_intr_handle_pending_dsrs (arg TBD) /opt/tmp/olcaKF1.1.2/sw/target/src/os/common/cmnos_intrinf.c
+------------------------stack start------------------------------

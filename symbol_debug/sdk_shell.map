@@ -1,0 +1,1856 @@
+00428000 A _indir_tbl
+00428a00 A AR6K_boot_info
+00429c18 A allocram_remaining_bytes
+0042a1b4 A gpAniStruct_35
+0042a1b8 A pWhalAniIndirectionTable
+0042a1c0 A whalIndirectionTable
+0042a508 A whalPreInitFn
+0042a644 A pWhalPaprdIndirectionTable
+0042a7a8 A pWhalResetIndirectionTable
+0042ac20 A eepromStruct
+0042acc8 A pWhalEepromIndirectionTable
+0042ad70 A g_pHTCInstances
+0042ad88 A malloc_arena_default_block
+0042ad9c A nvramr_api
+0042aeec A g_pWMI
+0042af18 A _m1m4_api
+0042af24 A _supp_auth_int_api
+0042af2c A _supp_auth_api
+0042af30 A tkip_cm_timer
+0042b210 A gpDevCommon
+0042b214 A gdevp
+0042b220 A devArray
+0042b2c4 A firmware_bridge
+0042b2ec A g_MccBmissWarEnable
+0042b468 A ieee80211_hdr_fns
+0042b480 A _tx_aggr_apis
+0042b484 A _tx_aggr_int_apis
+0042b490 A g_pTXRX
+0042b494 A g_frame_count
+0042b496 A g_frame_count_start
+0042b4f8 A _mac_dma_apis
+0042b4fc A txStatusRingSpace_48
+0042b508 A rxheadbufSpace_65
+0042b5f4 A g_bp
+0042b600 A fwd_AssocReq
+0042b608 A _win_check_api
+0042b628 A pco_cmn_struct
+0042b658 A lplConnectNotify
+0042cac8 A pg_ip
+0042cad8 A g_fragmented_rx
+0042cae0 A tcp_connection_in_progress
+0042cb40 A tcp_accept_in_progress
+0042cb70 A tcp_close_in_progress
+0042cbd0 A tcp_accept_initiate
+0042cc00 A tcp_close_dest_unreachable
+0042cc30 A tcp_close_pending
+0042cc60 A tcp_listen_in_progress
+0042ccc0 A g_current_time
+0042ccd0 A g_iniche_tick
+0042cd54 A ip6unspecified
+0042d05c A gpLplApiIndirectionTable
+0042d178 A gppool_indirection_table
+0042d1c8 A netlist
+0042d1dc A ip_mib
+0042d230 A rcvdq
+0042d244 A MaxLnh
+0042d254 A udp_mib
+0042d288 A icmp_mib
+0042d320 A soq
+0042d334 A tcpmib
+0042d3b0 A tcb
+0042d40c A tcpstat
+0042d508 A tcp_maxidle
+0042d50c A tcp_iss
+0042d524 A dhc_stats
+0042d560 A dhc_states
+0042d5a0 A gDhsPool
+0042d5bc A dhs_conn
+0042d5c0 A gDhsClntInfo
+0042d730 A firstudp
+0042f4e8 A up_to_ac
+0042f4f0 A bcast_mac
+0042f730 A defaultHTCap
+00431104 A assloop
+0043123c A whalNumChannel
+00431244 A whalInternalIndirectionTable
+00431324 A whalPaprdIndirectionTable_88
+00431580 A whalIntMap
+004315d8 A g_HTCIndirectionTable
+00431650 A malloc_api
+004316a0 A nvram_api
+004316bc A nvram_configp
+004316f0 A si_api
+00431768 A si_multiIO_api
+00431808 A WpaApiIndirectionTable
+00431844 A aes_int_api
+0043189c A gNumDev
+004318b0 A wlan_patch_init_fn
+004318b4 A max_tids
+004318c8 A wlanDevApiIndirectionTable
+00431940 A ieee80211InternalIndirectionTable
+00431990 A ProcessFrameEntries
+004319a8 A ieeeApiIndirectionTable
+004319ec A frmGenApiIndirectionTable
+00431a60 A keymgmtApiIndirectionTable
+00431b30 A wlanWpaApiIndirectionTable
+00431b50 A rateInternalIndirectionTable
+00431be8 A rateApiIndirectionTable
+00431db4 A wlanCtrlApiIndirectionTable
+00431dc8 A wlanSchedulerInternalIndirectionTable
+00431dd8 A wlanSchedulerApiIndirectionTable
+00431e00 A wlanWmiApiIndirectionTable
+00431e3c A wlanWmiInternalIndirectionTable
+00432070 A WmiMiscDispatchEntries
+004324d0 A P2P_FW_DispatchEntries
+004325ec A ath_aggr_max_subframes
+00432614 A wlanAMSDUSlice
+00432634 A amsduIntAPI
+00432650 A txrx_api_table
+00432880 A _txrx_int_fn_tbl
+00432974 A rxcomplete_yield_count
+0043299c A txrx_qos_api_table
+004329f0 A txrxThrottleApiIndirectionTable
+00432a34 A ath_num_ts_ring
+00432a38 A ath_txbuf
+00432a3c A ath_rxbuf
+00432a40 A ath_rxheadbuf
+00432a44 A max_ath_rxheadbuf
+00432a48 A ath_mgmtbuf
+00432a4c A ath_smmgmtbuf
+00432a50 A ath_rmbuf
+00432a54 A num_ath_data_buf
+00432a60 A macConApiIndirectionTable
+00432a84 A _bfp_pvt_api
+00432a88 A _bfp_api
+00432ab4 A wlanBeaconInternalIndirectionTable
+00432af4 A wlanBeaconApiIndirectionTable
+00432b7c A mlmeInternalIndirectionTable
+00432c14 A mlmeApiIndirectionTable
+00432cb0 A pWlanApApiIndirectionTable
+00432cb4 A wlanApInternalIndirectionTable
+00432da4 A pmInternalIndirectionTable
+00432e94 A pmApiIndirectionTable
+00433054 A gco_internal
+004330e0 A gco_api
+00433174 A tx_drain_ahead
+00433178 A wait_ap_drain
+00433190 A gdc_api
+00433300 A gro_api
+004333e4 A gcm_api
+004334a0 A ccxApiIndirectionTable
+004335b0 A pktlog_api_table
+00433614 A p2p_api_table
+00433a84 A _wps_api
+00433aac A _wps_wmi_internal_api
+00433ba8 A _wpsbuf_internal_api
+00433bc0 A _wps_dev_attr_internal_api
+00433ea4 A StrRclInternalIndirectionTable
+00433f14 A StrRclApiIndirectionTable
+00433f40 A PSRAMApiIndirectionTable
+00434200 A _ip_offload_api
+00434234 A in_num_modules
+00434280 A in_modules
+00434298 A ifdrv_internal_api
+00434324 A ifsock6_internal_api
+00434354 A ininit_internal_api
+00434384 A ipmain_internal_api
+00434388 A inport_internal_api
+00434398 A intimer_internal_api
+004343a4 A inutil_internal_api
+004343bc A osport_internal_api
+004343c8 A soketlayer_internal_api
+00434448 A SocketLayerApiIndirectionTable
+0043445c A ip6_internal_api
+00434554 A ip6route_internal_api
+00434640 A tcp6_internal_api
+0043464c A udp6_internal_api
+00434680 A p2p_fw_go_ps_table
+004346a4 A p2p_go_schedule_int_api_func
+00434724 A p2p_fw_go_table
+00434750 A p2p_main_int_api_func
+00434834 A p2p_fw_api_table
+004348a8 A p2p_node_int_api_func
+004348f4 A p2p_parse_int_api_func
+00434928 A p2p_pd_int_api_func
+00434940 A p2p_fw_pd_table
+0043498c A p2p_utils_int_api_func
+00434a08 A p2p_dev_disc_int_api_func
+00434a30 A p2p_goneg_int_api_func
+00434a64 A p2p_inv_int_api_func
+00434ae8 A g_pBTCOEXApi
+004351e8 A iparp_internal_api
+00435238 A ipcmn_internal_api
+00435250 A uid_46
+00435254 A ipnet_internal_api
+0043527c A ipstart_internal_api
+00435284 A ipudp_internal_api
+004352a8 A ipdmx_internal_api
+004352c4 A ipreasm_internal_api
+00435300 A ipicmp_internal_api
+00435304 A cb_internal_api
+00435338 A cksum_internal_api
+00435360 A task_int_api
+004353a8 A udp_protosw
+004353c4 A nptcp_internal_api
+00435408 A TCPTV_MSL
+0043540c A sockcall_internal_api
+0043543c A socket2_internal_api
+00435490 A socket_tcp_internal_api
+004354c8 A tcp_in_internal_api
+004354f4 A tcprexmtthresh
+00435500 A tcp_out_internal_api
+00435510 A tcp_outflags
+0043551c A tcp_subr_internal_api
+00435540 A tcp_keepintvl
+00435544 A tcp_keepidle
+00435548 A tcp_timr_internal_api
+00435560 A tcp_backoff
+00435570 A tcp_usr_internal_api
+00435588 A tcp_zio_internal_api
+00435598 A udpsock_internal_api
+004355b0 A in_pcb_internal_api
+00435600 A dhcpclnt2_internal_api
+0043566c A xids
+00435674 A reqlist
+004356a8 A dhcp_server_internal_api
+004356f8 A netmain_mod_internal_api
+00435740 A pktalloc_internal_api
+0043578c A q_internal_api
+00435798 A udpopen_internal_api
+004357a0 A ipopt_internal_api
+004357b0 A ip6_pcb_internal_api
+004357d4 A ipitimer_internal_api
+00435e00 A _dport0_rodata_end
+00435e00 A _dport0_rodata_start
+00435e00 A _dram0_rodata_end
+00435e00 A _dram0_rodata_start
+00435e00 A _rodata_start
+00435e20 r __func__$4495_1_5
+00435e30 r __func__$4547_9_4
+00435e40 r __func__$4753_35_2
+00435e60 r nv_config_legacy_38
+00435fa0 r wlan_socket_DispatchEntries_patch_88
+00435fb0 r __func__$18360_31_4
+00435fd0 r __FUNCTION__$17333_19_7
+00435fe0 r __func__$4390_5_3
+00435ff0 r __func__$18595_39_4
+00436020 r tgt11aPowerTable_2_52
+00436070 r __FUNCTION__$16126_15_2
+00436090 r __FUNCTION__$16171_16_4
+004360a0 r __FUNCTION__$16331_17_3
+004360c0 R crc8_table	/mnt/hgfs/sniffer_lib/user/qca_sniffer.c:215
+004361d0 r Te4_27
+004365d0 r rcon_28
+00436600 r Td0_30
+00436a00 r Td1_31
+00436e00 r Td2_32
+00437200 r Td3_33
+00437600 r Te0_35
+00437a00 r Te1_36
+00437e00 r Te2_37
+00438200 r Te3_38
+00438600 r Td4_40
+00439a14 A __XT_EXCEPTION_TABLE__
+00439a14 A _bss_table_start
+00439a1c A _bss_table_end
+00439a1c A _dport0_data_end
+00439a1c A _dport0_data_start
+00439a1c A _dram0_data_end
+00439a1c A _dram0_data_start
+00439a1c A _rodata_end
+00439a20 A _data_start
+00439a20 D g_u32UartFd	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c:57
+00439a24 D g_u32BcSleepCount	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c:55
+00439a30 D g_u8DefaultCloudKey	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_configuration.c:15
+00439a60 D g_u8DefaultTokenKey	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_configuration.c:27
+00439a70 D nv_config_mio_quad	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_nvram.c:61
+00439a94 D is_user_reconnect	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_wlan.c:19
+00439a98 D wlanDbgMod	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_wlan.c:14
+00439a9c D qcom_sta_wlan_reconnect_next_milestone	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_wlan.c:17
+00439aa0 D soselect_internal_api	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/../../../include/qcom/select_internal.h:82
+00439ac0 d nRetry2PerLookup$14074_15_22
+00439af0 D ht40above_map	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_ap_patch.c:279
+00439b10 D ht40below_map	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_ap_patch.c:298
+00439b24 D wps_protect	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_dev_patch.c:23
+00439b28 d patch_WmiMiscCommands_56
+00439b38 d IOE_Power_Commands_57
+00439b48 d P2P_FW_Misc_Commands_58
+00439b58 D patch_WmiMiscDispatchEntries	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_wmi_patch.c:134
+00439b60 D P2P_FW_Misc_DispatchEntries	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_wmi_patch.c:156
+00439b68 D IOE_Power_DispatchEntries	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_wmi_patch.c:180
+00439b70 d ANTDivWmiCmdTbl_43
+00439b80 d ANTDivDispatchEntries_54
+00439b90 D local_dhc_hostname	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/dhcp_patch_ioe.c:65
+00439bb4 d wlan_socket_cmd_tbl_patch_52
+00439bc4 D ip_tps	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/timeouts_patch.c:42
+00439bc6 D resync_iniche	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/timeouts_patch.c:45
+00439bc8 d fd_array_27
+00439bcc D fds	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/qcom_select.c:19
+00439bd0 D g_connect_timeout	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/qcom_socket.c:17
+00439bd4 D cdr_host_handler
+00439bd8 D g_cdr_host_thread_state	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/rtos_threadx.c:76
+00439be0 D _tx_thread_system_state	/tmp/components/rel/threadx.ioe/5.6/tx_thread.h:406
+00439bf0 D _tx_version_id	/tmp/components/rel/threadx.ioe/5.6/tx_port.h:543
+00439c60 D g_UartSerpIndirectionTable	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/uartserp/uartserp_internal.h:124
+00439ca0 D g_Uart1DefaultPins	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/uartserp/uartserp.c:39
+00439cc0 D g_Uart0DefaultPins	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/uartserp/uartserp.c:24
+00439ce0 D g_Uart2DefaultPins	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/uartserp/uartserp.c:56
+00439d00 d uart_print_id_34
+00439d04 D dnsclnt_internal_api	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/../h/dns.h:294
+00439d8c D dnsids	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:77
+00439d90 D dns_trys	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:112
+00439d94 D dns_firsttry	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:111
+00439d98 D aPendList	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:103
+00439d9c D dnsserv_api	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/../h/dns.h:544
+00439db8 D cdr_bgr_handler	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_bgr.c:27
+00439dbc D cdr_timer	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_select_handler.c:35
+00439dc0 d cdr_sock_context_35
+00439dd0 D tgt11pHalfPowerTable	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6000_eeprom_patch.c:428
+00439df0 D tgt11pQuarterPowerTable	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6000_eeprom_patch.c:444
+00439e08 d g_backup_restore_table_35
+00439e10 D rfModeArray	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6000_phy_patch.c:59
+00439e30 D antdivApiIndirectionTable	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ath_antdiv.c:18
+00439e44 D antdivInternalIndirectionTable	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ath_antdiv.c:27
+00439e60 D g_totalSizeDesired	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/ani_patch.c:44
+00439e70 D g_coarseLow	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/ani_patch.c:46
+00439e80 D g_coarseHigh	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/ani_patch.c:45
+00439e90 D g_firpwr	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/ani_patch.c:47
+00439ea0 D g_m1ThreshLow	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/ani_patch.c:50
+00439ea4 D g_m2ThreshLow	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/ani_patch.c:51
+00439ea8 D g_m1Thresh	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/ani_patch.c:52
+00439eac D g_m2Thresh	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/ani_patch.c:53
+00439eb0 D g_m2CountThr	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/ani_patch.c:54
+00439eb4 D g_m2CountThrLow	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/ani_patch.c:55
+00439eb8 D g_weakSigThrCck	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/ani_patch.c:58
+00439ec0 D g_cycpwrThr1	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/ani_patch.c:65
+00439ed0 d g_firstep_offset_52
+00439ee0 D snapdata	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/et_arp_patch_ioe.c:38
+00439ee8 D g_SerpIndirectionTable	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/serport/serial_internal.h:96
+00439efc D cdr_target_thread_handler	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_target_thread.c:22
+00439f00 D cdr_wmi_handler	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_wmi.c:21
+00439f04 d sniffer_enable_65
+00439f08 d airkiss_enable_66
+00439f0c A __XT_EXCEPTION_DESCS_END__
+00439f0c A __XT_EXCEPTION_DESCS__
+00439f0c A _data_end
+00439f10 A _bss_start
+00439f10 B pool	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/sdk_shell.c:18
+00439f44 B g_struCloudThread	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/sdk_shell.c:16
+0043a010 B g_s32StorePartition	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c:67
+0043a014 B g_struUartBuffer	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c:52
+0043a404 B struRemoteAddr	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c:69
+0043a414 B g_u32CloudIp	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c:68
+0043a418 B g_struQcAdapter	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c:31
+0043a444 B g_u16TcpMss	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c:48
+0043a448 B g_struRecvBuffer	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c:33
+0043a6a8 B g_struClientBuffer	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c:35
+0043a908 B g_struRecvQueue	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c:38
+0043a928 B g_struSendQueue	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c:40
+0043a948 B g_struRetxBuffer	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c:34
+0043aba8 B g_u8ClientSendLen	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c:45
+0043abaa B g_u16LocalPort	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c:49
+0043abb0 B g_struQcTimer	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c:53
+0043ad40 B g_u8UartBuildBuffer	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c:43
+0043afa0 B g_u8recvbuffer	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c:51
+0043b390 B g_u8BcSendBuffer	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c:54
+0043b400 B g_struSendBuffer	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c:39
+0043b8c0 B g_u8MsgBuildBuffer	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c:42
+0043bb20 B qca_partition_tbl_base	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ota.c:122
+0043bb24 B ota_image_len	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ota.c:124
+0043bb28 B retry_count	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ota.c:128
+0043bb2c B upgrade_partition	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ota.c:121
+0043bb30 B ota_need_swap_partition	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ota.c:130
+0043bb34 B current_partition	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ota.c:120
+0043bb38 B ota_md5_ctx	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ota.c:137
+0043bb90 B qca_partition_entries	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ota.c:123
+0043bba0 B ota_image_checksum	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ota.c:125
+0043bbc0 B tftp_rx_buf	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ota.c:118
+0043bfc0 B tftp_tx_buf	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ota.c:117
+0043c040 B current_image_checksum	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ota.c:126
+0043c060 B last_image_checksum	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ota.c:127
+0043c080 B tmp_buf	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ota.c:119
+0043c180 B mutex_tsk	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/swat_task_manage.c:34
+0043c1c0 B thr	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/swat_task_manage.c:29
+0043c210 B thrStatus	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/swat_task_manage.c:31
+0043c230 B thrStack	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/swat_task_manage.c:30
+0043c280 B taskName	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/swat_task_manage.c:32
+0043c2b0 b inited$3854_1_1
+0043c2b4 b taskId$3954_9_5
+0043c2b8 B g_pu8RemoteAddr	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_bc.c:13
+0043c2bc B g_Bcfd	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_bc.c:12
+0043c2c0 B g_u32GloablIp	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_bc.c:14
+0043c2c4 b sleepcount$2655_1_2
+0043c2c8 B g_struClientInfo	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_client_manager.c:15
+0043c2f0 B g_struZcConfigDb	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_configuration.c:13
+0043c418 B g_struRegisterInfo	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_configuration.c:14
+0043c4a4 B g_struProtocolController	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_protocol_controller.c:19
+0043c530 B g_struTimer	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_timer.c:12
+0043c580 B is_i2c_init	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_i2c.c:21
+0043c590 b i2c_set_pin_32
+0043c5a0 b tx_queue_ip_config_27
+0043c5dc b tx_queue_dns_38
+0043c618 b ho_41
+0043c62c b ipaddr_43
+0043c630 b ping_completed_event_50
+0043c658 b message_buff_76
+0043c660 b ipptr_42
+0043c668 b inited$10593_6_2
+0043c66c B pHTCInstance	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_system.c:98
+0043c670 B real_HTC_ReturnBuffers	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_system.c:99
+0043c674 B real_HTC_SendMsg	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_system.c:100
+0043c678 B real_HTC_module_Install	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_system.c:101
+0043c67c b argos_feature_enabled_52
+0043c680 B user_start_func	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_system.c:722
+0043c684 b config_flag$16029_21_3
+0043c688 b rtos_info$16030_21_4
+0043c690 b watchdog_timer_38
+0043c6b4 B gDeviceContextPtr	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_wlan.c:10
+0043c6b8 B reconnect_timer	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_wlan.c:11
+0043c6dc B wlanFlagWmiconfigConnect	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_wlan.c:12
+0043c6dd B wlanFlagWmiconfigScan	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_wlan.c:13
+0043c6e0 B qcom_sta_wlan_reconnect_cnt	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_wlan.c:16
+0043c6e4 B qcom_sta_wlan_reconnect_start_flag	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_wlan.c:18
+0043c6e8 B qcom_wps_connect_flag	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_wps.c:11
+0043c6ec B qcom_wps_started	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_wps.c:10
+0043c6f0 b wps_enable$4517_12_2
+0043c6f4 B user_bgrs_htc	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/user_apps.c:16
+0043c6f8 B rom_ro_update_connection_state_metric	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/roaming_patch.c:18
+0043c6fc B rom_ro_bmiss_handler	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/roaming_patch.c:53
+0043c700 b pre_q$14227_2_16
+0043c704 b pre_prop$14229_2_18
+0043c70c b pre_holdtime$14231_2_20
+0043c710 b pre_sendtime$14233_2_22
+0043c740 b preconn$14226_2_15
+0043c744 b pre_chain$14228_2_17
+0043c754 b pre_txq$14230_2_19
+0043c758 b pre_tid$14232_2_21
+0043c75c B rom_wlan_beacon_current_bss	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_beacon_patch.c:46
+0043c760 b temp_tsf_49
+0043c764 B rom_wlan_beacon_config	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_beacon_patch.c:116
+0043c768 B gMccWpsProtectEnabled	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_dev_patch.c:21
+0043c769 B gMccProfileEnabled	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_dev_patch.c:22
+0043c76c B rom_pmSetP2PPowerState	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_power_patch.c:14
+0043c770 b g_p2p_ps_poll_delay_34
+0043c774 B rom_pmTIMHandler	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_power_patch.c:84
+0043c778 b rom_mlme_recv_action_frame_51
+0043c77c B rom_mlme_sm_halt	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_umlme_patch.c:473
+0043c780 B rom_mlme_recv_assoc_resp	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_umlme_patch.c:32
+0043c784 B g_pDirectBuffer	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_wmi_patch.c:65
+0043c788 B rom_WMI_Init	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wmi_svc_patch.c:58
+0043c78c B rom_WMI_AllocEvent	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wmi_svc_patch.c:184
+0043c790 B dnsrv	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/dhcp_patch_ioe.c:64
+0043c798 B disable_dhcp_server	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/dhcpsrvr_patch.c:42
+0043c79c B strrcl_state	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/ip_main_patch_ioe.c:60
+0043c79d B gUDPFramePendingWithHTC	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/ip_main_patch_ioe.c:134
+0043c7a0 B rom_ip_demux	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/ip_main_patch_ioe.c:1695
+0043c7a4 B rom_icmprcv	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/ip_main_patch_ioe.c:2440
+0043c7a8 B gu1RecvBuf	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/pktalloc_patch_ioe.c:47
+0043c7a9 B gTCPFramePendingWithHTC	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/pktalloc_patch_ioe.c:46
+0043c7aa B gu1MaxRecvBuf	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/pktalloc_patch_ioe.c:48
+0043c7ab B gu1MinRxBuf	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/pktalloc_patch_ioe.c:49
+0043c7b0 B sock_layer_initialized	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/socketLayer_patch_ioe.c:81
+0043c7c0 B sntp_addr	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/socketLayer_patch_ioe.c:47
+0043c7d4 b fourway_indication_to_host_49
+0043c7d5 b handshake_retry_counter_52
+0043c7d8 b prev_last_mic_err_ms_65
+0043c7dc B m4handleenable	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/suppl_auth_patch.c:31
+0043c7e0 B dropline	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:27
+0043c7e4 B rom_sosetopt	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:3930
+0043c7e8 B rom_sogetopt	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:3962
+0043c7ec B ROM_TXRX_Init	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/txrx_api_patch.c:590
+0043c7f0 B patch_wlan_promiscuous_rx_cb	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/txrx_internal_patch.c:44
+0043c7f4 B rom_wmi_set_channel_list_cmd	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/wlan_wmi_patch.c:116
+0043c7f8 B wlan_power_state_val	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/wlan_wmi_patch.c:29
+0043c800 b fd_set_inited_34
+0043c810 B q_fds	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/qcom_select.c:16
+0043c870 B _cdr_host_handler
+0043c884 B _rtos_cond_init
+0043c888 B _rtos_cond_signal
+0043c88c B _rtos_cond_wait
+0043c890 b inited_32
+0043c894 B cdr_msg_pool	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_cdr.c:21
+0043c898 B cdr_wmi_event_dispatch_handler	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_cdr.c:54
+0043c89c b is_probe_ssid_57
+0043c8a0 B wmi_dev	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_cdr.c:22
+0043c8b0 B _tx_semaphore_created_ptr	/tmp/components/rel/threadx.ioe/5.6/tx_semaphore.h:157
+0043c8b4 B _tx_semaphore_created_count	/tmp/components/rel/threadx.ioe/5.6/tx_semaphore.h:162
+0043c8b8 B _tx_queue_created_ptr	/tmp/components/rel/threadx.ioe/5.6/tx_queue.h:180
+0043c8bc B _tx_queue_created_count	/tmp/components/rel/threadx.ioe/5.6/tx_queue.h:185
+0043c8c0 B _tx_event_flags_created_ptr	/tmp/components/rel/threadx.ioe/5.6/tx_event_flags.h:162
+0043c8c4 B _tx_event_flags_created_count	/tmp/components/rel/threadx.ioe/5.6/tx_event_flags.h:167
+0043c8c8 B _tx_block_pool_created_ptr	/tmp/components/rel/threadx.ioe/5.6/tx_block_pool.h:159
+0043c8cc B _tx_block_pool_created_count	/tmp/components/rel/threadx.ioe/5.6/tx_block_pool.h:164
+0043c8d0 B _tx_byte_pool_created_ptr	/tmp/components/rel/threadx.ioe/5.6/tx_byte_pool.h:171
+0043c8d4 B _tx_byte_pool_created_count	/tmp/components/rel/threadx.ioe/5.6/tx_byte_pool.h:176
+0043c8d8 B _tx_mutex_created_ptr	/tmp/components/rel/threadx.ioe/5.6/tx_mutex.h:166
+0043c8dc B _tx_mutex_created_count	/tmp/components/rel/threadx.ioe/5.6/tx_mutex.h:171
+0043c8e0 B _tx_initialize_unused_memory	/tmp/components/rel/threadx.ioe/5.6/tx_initialize.h:139
+0043c8f0 B _tx_thread_current_ptr	/tmp/components/rel/threadx.ioe/5.6/tx_thread.h:379
+0043c8f4 B _tx_thread_execute_ptr	/tmp/components/rel/threadx.ioe/5.6/tx_thread.h:386
+0043c8f8 B _tx_thread_highest_priority	/tmp/components/rel/threadx.ioe/5.6/tx_thread.h:453
+0043c8fc B _tx_thread_created_ptr	/tmp/components/rel/threadx.ioe/5.6/tx_thread.h:391
+0043c900 B _tx_thread_created_count	/tmp/components/rel/threadx.ioe/5.6/tx_thread.h:396
+0043c904 B _tx_thread_preempt_disable	/tmp/components/rel/threadx.ioe/5.6/tx_thread.h:468
+0043c908 B _tx_thread_mutex_release	/tmp/components/rel/threadx.ioe/5.6/tx_thread.h:474
+0043c90c B _tx_build_options	/tmp/components/rel/threadx.ioe/5.6/tx_thread.h:510
+0043c910 B _tx_thread_system_stack_ptr	/tmp/components/rel/threadx.ioe/5.6/tx_thread.h:373
+0043c914 B _tx_thread_priority_maps	/tmp/components/rel/threadx.ioe/5.6/tx_thread.h:417
+0043c918 B _tx_thread_preempted_maps	/tmp/components/rel/threadx.ioe/5.6/tx_thread.h:437
+0043c920 B _tx_thread_priority_list	/tmp/components/rel/threadx.ioe/5.6/tx_thread.h:461
+0043c9a0 B g_pUartDevices	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/uartserp/uartserp.c:73
+0043c9ac B nvramw_api	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/../../romexport/AR6002/hw7.2/include/nvram_api.h:368
+0043c9b0 B spi_nvramw_fns	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/spi_nvramw.c:140
+0043c9d0 b Console_serial_restored_32
+0043c9d4 b uart_init_44
+0043c9d8 b Console_uart_info_33
+0043c9e0 b uart_handle_39
+0043c9f0 b uart_data_51
+0043ca00 B user_app_state1	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_event.c:10
+0043ca04 B g_wifi_state	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_event.c:10
+0043ca10 B dnsc_active	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:88
+0043ca14 B dnsc_requests	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:81
+0043ca18 B numdnssvrs	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:114
+0043ca1c B dns_qs	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:73
+0043ca20 B dnsc_tmos	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:84
+0043ca24 B dnsc_retry	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:85
+0043ca28 B dnc_next_tmo	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:90
+0043ca2c B dnsc_errors	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:80
+0043ca30 B dnsc_replies	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:82
+0043ca34 B dnsc_good	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:83
+0043ca38 b dnc_addr_90
+0043ca3c b dnc_hostent_92
+0043ca50 B dnsc_updates	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:75
+0043ca60 B dns_servers	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:115
+0043caa0 b dnc_TXTptrs_80
+0043cae0 b dnc_name_91
+0043cb00 b dnc_addrptrs_93
+0043cb10 B dns_server_conn	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnssrvr.c:66
+0043cb14 B dns6_server_conn	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnssrvr.c:67
+0043cb20 B gDnsSrvrList	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnssrvr.c:60
+0043d098 B cdr_req_debug	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_bgr.c:146
+0043d09c B g_cdr_bgr_state	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_bgr.c:32
+0043d0a0 B _cdr_bgr_handler	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_bgr.c:26
+0043d0b4 B cdr_api	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr.c:109
+0043d0c0 b cdr_timer_inited_32
+0043d0c4 B qca_selcb_list	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_select_handler.c:26
+0043d0c8 B tx_alloc_pend_list	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/tx_alloc_handle.c:23
+0043d0cc B tx_block_cnt	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/tx_alloc_handle.c:24
+0043d0d0 B htc_get	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/tx_buffer.c:29
+0043d0d4 B htc_put	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/tx_buffer.c:23
+0043d0d8 b gpEepromStruct_35
+0043d0dc B ROM_ar6000EepromSetSpurMitigation	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6000_eeprom_patch.c:109
+0043d0e0 B ROM_ar6000SetPowerPerRateTable	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6000_eeprom_patch.c:479
+0043d0e4 B pPaprdStruct	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6000_paprd_patch.c:15
+0043d0e8 b tx_gain_table_change_34
+0043d0ec B paprdCtrl2	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6000_paprd_patch.c:16
+0043d0f0 b rom_ar6000PaprdTrainingStatus_45
+0043d0f4 b rom_ar6000PaprdCalibrationSM_49
+0043d0f8 B paprd_training_count_ch0	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6000_paprd_patch.c:30
+0043d0fa B paprd_training_count_ch1	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6000_paprd_patch.c:30
+0043d0fc b rom_ar6000PaprdCheckRetrain_58
+0043d100 b rom_ar6000PaprdHwDisable_61
+0043d104 B rom_ar6000PaprdXmitTrainingFrame	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6000_paprd_patch.c:1143
+0043d108 b seqNum$14129_13_9
+0043d10c B gpPhyStruct	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6000_phy_patch.c:14
+0043d110 B ar6000SetChannelFractionN	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6000_phy_patch.c:16
+0043d114 B ROM_ar6000WriteMacBBRegs	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6000_phy_patch.c:70
+0043d118 b gpResetStruct_32
+0043d11c b rom_ar6000NfInitCal_33
+0043d120 B rom_MAC_DMA_AllocBuffer	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6004_mac_dma_patch.c:49
+0043d124 b g_antcomb_33
+0043d16c B g_ant_div_reply	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ath_antdiv.c:10
+0043d1b0 B one_shot_noa_enabled	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/chop_sched_patch.c:59
+0043d1b4 B rom_co_op_end	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/chop_sched_patch.c:654
+0043d1b8 B rom_co_init	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/chop_sched_patch.c:1750
+0043d1c0 B wait_for_cts_timer	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/chop_sched_patch.c:61
+0043d1e0 b op_pending$17636_30_12
+0043d1e4 b recursive$17637_30_13
+0043d1e8 B rom_patch_Process_Data_Frame	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ieee80211_input_patch.c:21
+0043d1ec B rom_ProcessSeqNum	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ieee80211_input_patch.c:33
+0043d1f0 B rom_ar6000EnableAni	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/ani_patch.c:535
+0043d1f4 b g_ani_current_status_64
+0043d1f8 B rom_ar6000AniControl	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/ani_patch.c:72
+0043d200 B g_firstep	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/ani_patch.c:62
+0043d210 b bb_desired_sig$14258_7_2
+0043d214 b bb_find_signal$14260_7_4
+0043d218 b bb_sfcorr$14262_7_6
+0043d21c b bb_bbb_sig_detect$14264_7_8
+0043d220 b bb_find_low_signal$14266_7_10
+0043d224 b bb_agc_addr$14259_7_3
+0043d228 b bb_self_corr_low$14261_7_5
+0043d22c b bb_ext_chan_scorr_thr$14263_7_7
+0043d230 b bb_timing_control_5$14265_7_9
+0043d234 b bb_ext_chan_power_thr2$14267_7_11
+0043d238 b athbufSpace_62
+0043d23c b rxbufSpace_63
+0043d240 B txbufSpace	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/ar6004_mac_dma_patch.c:49
+0043d244 b mgtbufSpace_67
+0043d248 b smmgtbufSpace_68
+0043d24c b rmbufSpace$15515_18_15
+0043d250 b dhcp_para_32
+0043d260 b dnsrv_39
+0043d264 b rtos_info$11764_8_1
+0043d26c b cache_exp_55
+0043d270 B arpcache	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/et_arp_patch_ioe.c:28
+0043d274 B recall_state
+0043d278 B g_pSerPManager	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/serport/serial_if.c:20
+0043d280 B current_time	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:161
+0043d290 B _tx_timer_time_slice	/tmp/components/rel/threadx.ioe/5.6/tx_timer.h:157
+0043d294 B _tx_timer_expired_time_slice	/tmp/components/rel/threadx.ioe/5.6/tx_timer.h:163
+0043d298 B g_cdr_target_thread_state	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_target_thread.c:34
+0043d2ec B _cdr_target_thread_handler	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_target_thread.c:21
+0043d300 B g_cdr_wmi_state	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_wmi.c:26
+0043d304 B _cdr_wmi_handler	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_wmi.c:20
+0043d320 B tAirKiss	/mnt/hgfs/sniffer_lib/user/qca_sniffer.c:208
+0043d420 b tTemp_34
+0043d460 b suspend_thread_62
+0043d464 b tApInfo_69
+0043d4ac B sniffer_cb_func	/mnt/hgfs/sniffer_lib/user/qca_sniffer.c:197
+0043d4b0 B ap_num	/mnt/hgfs/sniffer_lib/user/qca_sniffer.c:240
+0043d4b4 B bss_info	/mnt/hgfs/sniffer_lib/user/qca_sniffer.c:241
+0043d4f0 B cache_buffer	/mnt/hgfs/sniffer_lib/user/qca_sniffer.c:212
+0043d8f0 b channel_array_79
+0043d930 b my_sniffer_rx_buf_101
+0043df70 b g_index$5354_7_2
+0043df74 b group_num$5358_7_6
+0043df78 b last_num$5359_7_7
+0043df80 b group_buf$5362_7_10
+0043df90 b des_data$5360_7_8
+0043dfb0 b temp_data$5361_7_9
+0043dfd0 b match_point$5363_7_11
+0043dfd8 b k$5357_7_5
+0043dfdc b i$5355_7_3
+0043dfe0 b j$5356_7_4
+0043dff0 B X	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/tropicssl/bignum.c:888
+0043e048 B Y	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/tropicssl/bignum.c:888
+0043e0a0 B Z	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/tropicssl/bignum.c:888
+0043e0f8 B O_T1	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/tropicssl/bignum.c:888
+0043e150 B O_T2	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/tropicssl/bignum.c:888
+0043e1a8 B O_RR	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/tropicssl/bignum.c:1202
+0043e200 B O_T	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/tropicssl/bignum.c:1202
+0043e260 B O_W	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/tropicssl/bignum.c:1202
+0043f860 B T	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/tropicssl/rsa.c:138
+0043f8b8 B T1	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/tropicssl/rsa.c:168
+0043f910 B T2	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/tropicssl/rsa.c:168
+0043f970 B buf	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/tropicssl/rsa.c:267
+0043f9b0 A _bss_end
+0043f9b0 B _end
+0043f9b0 B _stack_sentry
+00940990 A athos_unblock_all_intrlvl
+009436f0 A _cvt
+00943770 A cmnos_fmt_next_char
+00943c5c A cmnos_printf
+009445dc A sscanf
+00946500 A ar6000AniGetListenTime
+00949f14 A ar6000GetTsf32
+0094f2cc A fbin2freq
+0094fc08 A interpolate_round
+0094fc4c A getLowerUpperIndex
+00956194 A _spi_wait_part_done
+00956398 A _multiIO_spi_wait_part_done
+0095668c A spi_nvramr_module_install
+00959be8 A WMIRecvMessageHandler
+00959dac A WMIServiceConnect
+0095dd48 A _suppl_auth_init_auth
+0095e1f8 A _suppl_process_sent_m2
+00960074 A wlan_main
+00979698 A IsRxHeadBuf
+0097a7e4 A _tsf_timer_now_function
+00988134 A CO_SET_POWERMODE
+0098819c A CO_SET_STATE
+009881d0 A CO_CLEAR_STATE
+0098f894 A _hs_compl_evt
+0098f92c A _form_eapol_frame
+009953bc A _P2P_wait_auth_frame
+009b2250 A _dispatch_wlan_socket_cmds
+009ba5e4 A _p2p_go_complete
+009bcb28 A p2p_go_schedules_tsf_timeout
+009cabac A lpl_module_attach
+009cd1fc A _ip_init
+009cfdb0 A _inet_pton
+009d0b44 A _soisconnecting
+009d0bb8 A _soisdisconnecting
+009d0bd8 A _soisdisconnected
+009d0d88 A _sbwakeup
+009d58a0 A _dhc_release
+009d7ddc A _inet_timer
+009d804c A xthal_window_spill_nw
+009d8160 A xthal_window_spill
+009d8bb8 A strcmp
+009d8ce4 A strcpy
+009d8d74 A strlen
+009d8ec4 A strncpy
+009d9dcc A memcmp
+009d9e68 A memcpy
+009da134 A memset
+009fa000 A _lit4_end
+009fa000 A _lit4_start
+009fa000 A _rom_literal_start
+00a00000 A _dport0_literal_end
+00a00000 A _dport0_literal_start
+00a00000 A _literals_start
+00a00000 A _rom_literal_end
+00a016b4 A _dram0_literal_end
+00a016b4 A _dram0_literal_start
+00a016b4 A _literals_end
+00a02800 A _iram0_text_end
+00a02800 A _iram0_text_start
+00a02800 T _stext	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/app_start.c:13
+00a02800 A _text_start
+00a02800 T app_start	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/app_start.c:13
+00a0280c T user_main	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/sdk_shell.c:31
+00a02860 T rand	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c:84
+00a02878 T QC_BlinkLight	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c:99
+00a028a4 T QC_LoadPartition	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c:121
+00a028b8 T QC_ReadDataFormFlash	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c:134
+00a028f4 T QC_WriteDataToFlash	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c:158
+00a02920 T QC_timer_callback	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c:177
+00a02934 T QC_StopTimer	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c:194
+00a02950 T QC_SetTimer	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c:208
+00a029a0 T QC_FirmwareUpdateFinish	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c:234
+00a029b0 T QC_FirmwareUpdate	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c:248
+00a029fc T QC_SendDataToMoudle	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c:296
+00a02a4c T QC_SnifferSuccess	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c:335
+00a02ab4 T QC_Rest	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c:367
+00a02ad0 T QC_SendTcpData	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c:386
+00a02ae4 T QC_SendUdpData	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c:398
+00a02afc T QC_CloudRecvfunc	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c:413
+00a02cf8 T QC_BcInit	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c:599
+00a02da4 T QC_ConnectToCloud	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c:634
+00a02e74 T QC_ListenClient	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c:691
+00a02ee8 T QC_GetDhcp	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c:729
+00a02f34 T QC_SetNetwork	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c:770
+00a02ff0 T QC_Cloudfunc	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c:836
+00a030c4 T QC_UartInit	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c:915
+00a03114 T QC_Init	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c:948
+00a03190 T QC_WakeUp	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c:987
+00a03198 T QC_Sleep	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/zc_qca_adpter.c:1000
+00a031f0 T _ota_nvram_read_data	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ota.c:232
+00a03208 T _ota_nvram_write_data	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ota.c:242
+00a03220 T _ota_nvram_write_partition_magicword	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ota.c:286
+00a03240 T _ota_nvram_load_partition_table	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ota.c:296
+00a03264 T _ota_nvram_get_partition_base	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ota.c:308
+00a03274 T _inet_addr	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/swat_wmiconfig_network.c:12
+00a032a8 t task_init	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/swat_task_manage.c:50
+00a032e8 t get_empty_task_index	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/swat_task_manage.c:66
+00a03304 t mark_exit_task	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/swat_task_manage.c:79
+00a03334 t free_task_mem	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/swat_task_manage.c:113
+00a03378 T qcom_task_del	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/swat_task_manage.c:148
+00a033a8 T qcom_task_start	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/swat_task_manage.c:167
+00a034e8 T qcom_task_exit	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/swat_task_manage.c:274
+00a03514 T ZC_SendBc	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_bc.c:25
+00a03578 T ZC_SendClientQueryReq	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_bc.c:61
+00a0360c T ZC_ClientDisconnect	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_client_manager.c:26
+00a0363c T ZC_ClientConnect	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_client_manager.c:51
+00a0365c T ZC_ClientInit	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_client_manager.c:76
+00a03674 T ZC_CheckClientIdle	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_client_manager.c:94
+00a03690 T ZC_SetClientBusy	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_client_manager.c:121
+00a036a0 T ZC_SetClientFree	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_client_manager.c:134
+00a036b0 T ZC_StartClientListen	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_client_manager.c:147
+00a036d4 T ZC_ClientWakeUp	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_client_manager.c:172
+00a036e4 T ZC_ClientSleep	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_client_manager.c:184
+00a036ec T ZC_RecvDataFromClient	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_client_manager.c:198
+00a03920 T EVENT_BuildEmptyMsg	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_cloud_event.c:22
+00a03954 T EVENT_BuildHeartMsg	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_cloud_event.c:49
+00a03988 T EVENT_BuildMsg	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_cloud_event.c:75
+00a039d0 T EVENT_BuildBcMsg	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_cloud_event.c:102
+00a03a44 T EVENT_BuildOption	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_cloud_event.c:173
+00a03a9c T ZC_TraceData	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_common.c:26
+00a03b18 T ZC_Rand	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_common.c:65
+00a03b68 T ZC_ConfigInitPara	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_configuration.c:44
+00a03bbc T ZC_ConfigPara	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_configuration.c:69
+00a03cc4 T ZC_StoreRegisterInfo	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_configuration.c:99
+00a03d00 T ZC_StoreTokenKey	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_configuration.c:119
+00a03d24 T ZC_StoreConnectionInfo	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_configuration.c:133
+00a03d5c T ZC_StoreAccessInfo	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_configuration.c:150
+00a03d98 T ZC_GetStoreInfor	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_configuration.c:167
+00a03dcc T MSG_Init	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_message_queue.c:26
+00a03e04 T MSG_RecvData	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_message_queue.c:125
+00a03f3c T MSG_RecvDataFromCloud	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_message_queue.c:262
+00a03f88 T MSG_SendDataToCloud	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_message_queue.c:297
+00a03fc8 T ZC_DealSessionOpt	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_moudle_manager.c:27
+00a040f8 T ZC_RecvDataFromMoudle	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_moudle_manager.c:125
+00a04264 T ZC_AssemblePkt	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_moudle_manager.c:235
+00a043e8 T ZC_Moudlefunc	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_moudle_manager.c:394
+00a04428 T PCT_CheckCrc	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_protocol_controller.c:31
+00a0445c T PCT_SendNotifyMsg	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_protocol_controller.c:57
+00a04488 T PCT_SendHeartMsg	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_protocol_controller.c:72
+00a044c8 T PCT_Init	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_protocol_controller.c:100
+00a04518 T PCT_SendEmptyMsg	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_protocol_controller.c:141
+00a04548 T PCT_SendErrorMsg	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_protocol_controller.c:164
+00a0457c T PCT_SendCloudAccessMsg1	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_protocol_controller.c:187
+00a04634 T PCT_SendCloudAccessMsg3	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_protocol_controller.c:243
+00a046b8 T PCT_DisConnectCloud	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_protocol_controller.c:285
+00a046d4 T PCT_ReconnectCloud	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_protocol_controller.c:329
+00a04744 T PCT_SendMoudleTimeout	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_protocol_controller.c:372
+00a047a0 T PCT_HandleMoudleEvent	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_protocol_controller.c:412
+00a047e4 T PCT_RecvAccessMsg2	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_protocol_controller.c:443
+00a048e8 T PCT_RecvAccessMsg4	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_protocol_controller.c:512
+00a04984 T PCT_SendAckToCloud	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_protocol_controller.c:567
+00a049b8 T PCT_HandleOtaBeginMsg	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_protocol_controller.c:586
+00a049d4 T PCT_ModuleOtaFileBeginMsg	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_protocol_controller.c:604
+00a04a20 T PCT_ModuleOtaFileChunkMsg	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_protocol_controller.c:626
+00a04af0 T PCT_ModuleOtaFileEndMsg	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_protocol_controller.c:686
+00a04b1c T PCT_HandleOtaFileBeginMsg	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_protocol_controller.c:711
+00a04b68 T PCT_HandleOtaFileChunkMsg	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_protocol_controller.c:738
+00a04c20 T PCT_HandleOtaFileEndMsg	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_protocol_controller.c:790
+00a04c34 T PCT_HandleOtaEndMsg	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_protocol_controller.c:807
+00a04c70 T PCT_HandleMoudleMsg	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_protocol_controller.c:833
+00a04cd4 T PCT_SetTokenKey	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_protocol_controller.c:874
+00a04cf0 T PCT_ResetNetWork	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_protocol_controller.c:898
+00a04d0c T PCT_HandleEvent	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_protocol_controller.c:921
+00a04e38 T PCT_Run	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_protocol_controller.c:1003
+00a04e7c T PCT_WakeUp	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_protocol_controller.c:1039
+00a04ea8 T PCT_Sleep	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_protocol_controller.c:1061
+00a04ef0 T PCT_SendMsgToCloud	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_protocol_controller.c:1093
+00a04f8c T SEC_EncryptTextByRsa	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_sec_engine.c:22
+00a05050 T SEC_DecryptTextByRsa	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_sec_engine.c:86
+00a05124 T SEC_InitRsaContextWithPublicKey	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_sec_engine.c:155
+00a05150 T SEC_InitRsaContextWithPrivateKey	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_sec_engine.c:172
+00a051e0 T SEC_AesEncrypt	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_sec_engine.c:207
+00a0521c T SEC_AesDecrypt	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_sec_engine.c:238
+00a05254 T SEC_PaddingCheck	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_sec_engine.c:282
+00a05298 T SEC_Encrypt	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_sec_engine.c:341
+00a0532c T SEC_Decrypt	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_sec_engine.c:390
+00a053c0 T TIMER_Init	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_timer.c:23
+00a053d4 T TIMER_FindIdleTimer	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_timer.c:41
+00a053fc T TIMER_AllocateTimer	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_timer.c:64
+00a05414 T TIMER_TimeoutAction	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_timer.c:91
+00a05484 T TIMER_StopTimer	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_timer.c:128
+00a054a4 T qcom_gpio_config_pin	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_gpio.c:17
+00a054c0 T qcom_gpio_set_pin_high	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_gpio.c:73
+00a054d0 T qcom_gpio_set_pin_low	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_gpio.c:78
+00a054e0 T mem_alloc	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_mem.c:17
+00a054f4 T mem_free	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_mem.c:31
+00a05508 T mem_heap_get_free_size	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_mem.c:78
+00a05544 T qcom_promiscuous_enable	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_misc.c:67
+00a05564 T qcom_set_promiscuous_rx_cb	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_misc.c:81
+00a05578 T _qcom_ipconfig	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_network.c:22
+00a05610 T _qcom_dns_get	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_network.c:80
+00a056dc T qcom_ip_address_set	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_network.c:137
+00a056f8 T qcom_ip_address_get	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_network.c:144
+00a05718 T qcom_dhcpc_enable	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_network.c:217
+00a05730 T qcom_dhcps_enable	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_network.c:225
+00a05748 T qcom_dnsc_enable	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_network.c:257
+00a05758 T qcom_dnsc_get_host_by_name	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_network.c:278
+00a057ac T qcom_wmi_event_socket_process	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_network.c:296
+00a05860 t _qcom_board_type_get	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_nvram.c:77
+00a05870 t _qcom_board_cfg_get	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_nvram.c:87
+00a05880 t _qcom_nvram_mode_get	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_nvram.c:95
+00a058a8 t _qcom_nvram_size_get	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_nvram.c:117
+00a058d8 t _qcom_nvram_init	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_nvram.c:137
+00a05970 t _qcom_nvram_fini	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_nvram.c:185
+00a05980 T qcom_nvram_read	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_nvram.c:194
+00a059a0 T qcom_nvram_erase	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_nvram.c:206
+00a059e8 T qcom_nvram_write	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_nvram.c:228
+00a05a20 T qcom_scan_set_mode	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_scan.c:10
+00a05a48 T qcom_scan_bss_start	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_scan.c:49
+00a05a94 T qcom_scan_all_bss_start	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_scan.c:71
+00a05ad0 T qcom_scan_get_bss_number	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_scan.c:87
+00a05aec T qcom_scan_get_bss_info	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_scan.c:99
+00a05b14 t _qcom_util_freq2ieee	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_scan.c:121
+00a05b60 t _qcom_wpa_auth_parse	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_scan.c:149
+00a05ba4 t _qcom_wpa_cipher_parse	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_scan.c:167
+00a05c0c t _qcom_rsn_cipher_parse	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_scan.c:193
+00a05c74 t _qcom_rsn_auth_parse	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_scan.c:218
+00a05cb8 t _qcom_security_ie_parse	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_scan.c:236
+00a05d98 t _qcom_parse_bss_info	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_scan.c:288
+00a06004 T _qcom_record_bss_info	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_scan.c:460
+00a060c8 T _qcom_bss_scan_result_show	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_scan.c:526
+00a062d8 T _qcom_get_bss_entry_by_ssid	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_scan.c:604
+00a0635c T qcom_sec_set_wepkey	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_sec.c:27
+00a06458 T qcom_sec_set_auth_mode	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_sec.c:139
+00a06468 T qcom_sec_set_encrypt_mode	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_sec.c:158
+00a06478 T qcom_sec_set_passphrase	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_sec.c:177
+00a064ac T qcom_sta_connect_with_scan	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_sta.c:10
+00a064dc T qcom_sta_reconnect_start	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_sta.c:124
+00a0651c T qcom_sta_reconnect_stop	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_sta.c:138
+00a06544 T _qcom_connect_ap	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_sta.c:180
+00a067b4 T _qcom_connect_ap_scaned	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_sta.c:351
+00a068b8 T _qcom_sta_wlan_reconnect_timer_handler	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_sta.c:442
+00a06914 t A_INIT	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/../../../romexport/AR6002/hw7.2/include/os/athos_api.h:745
+00a06954 T _qcom_wmi_commands	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_system.c:113
+00a06a54 T _qcom_HTC_SendMsg	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_system.c:265
+00a06a70 T _qcom_HTC_SendMsg2	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_system.c:277
+00a06a94 T _qcom_HTC_Housekeeping	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_system.c:291
+00a06aac T _qcom_HTC_module_Install	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_system.c:299
+00a06acc T _qcom_HTCSetupComplete	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_system.c:314
+00a06b08 T _qcom_HTC_Postprocess	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_system.c:331
+00a06bac T _qcom_pre_start	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_system.c:389
+00a06c30 T _qcom_pre_init	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_system.c:419
+00a06c68 T _qcom_init_ipstack	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_system.c:448
+00a06c98 T _qcom_pre_patch	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_system.c:457
+00a06cc4 T _qcom_host_less_boot_config	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_system.c:479
+00a06db0 T _qcom_app_start	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_system.c:726
+00a06dc0 T qcom_sys_start	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_system.c:736
+00a06e1c T qcom_sys_reset	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_system.c:781
+00a06e58 T time	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_time.c:13
+00a06e78 T time_ms	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_time.c:34
+00a06e88 T qcom_timer_init	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_timer.c:14
+00a06ea4 T qcom_timer_start	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_timer.c:23
+00a06ebc T qcom_timer_stop	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_timer.c:30
+00a06ed0 T qcom_timer_delete	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_timer.c:36
+00a06ee4 T sleep_timeout	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_timer.c:42
+00a06ef0 T qcom_thread_msleep	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_timer.c:47
+00a06f1c T qcom_uart_init	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_uart.c:15
+00a06f28 T qcom_set_uart_config	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_uart.c:63
+00a06f9c T qcom_uart_open	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_uart.c:92
+00a06fac T qcom_uart_read	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_uart.c:100
+00a06fc0 T qcom_uart_write	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_uart.c:104
+00a06fd4 T qcom_uart_rx_pin_set	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_uart.c:110
+00a06fe4 T qcom_uart_tx_pin_set	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_uart.c:116
+00a06ff4 T printf	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_utils.c:55
+00a07048 t watchdog_feed	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_wdt.c:14
+00a07060 T qcom_watchdog_feed	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_wdt.c:20
+00a07078 T sys_assfail	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_wdt.c:27
+00a07100 T watchdog_enable	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_wdt.c:69
+00a07158 T watchdog_disable	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_wdt.c:107
+00a07178 T qcom_watchdog	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_wdt.c:116
+00a071c8 T qcom_op_set_mode	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_wlan.c:21
+00a07234 T qcom_op_get_mode	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_wlan.c:52
+00a07250 T qcom_disconnect	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_wlan.c:64
+00a07268 T qcom_set_phy_mode	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_wlan.c:99
+00a07300 T qcom_set_channel	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_wlan.c:179
+00a07348 T qcom_get_state	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_wlan.c:342
+00a07364 T qcom_init_dev_context	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_wlan.c:354
+00a073b0 T _qcom_set_ssid_cfg_from_wps	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_wps.c:20
+00a073e0 T _qcom_set_channel_cfg_from_wps	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_wps.c:33
+00a073f0 T _qcom_set_auth_cfg_from_wps	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_wps.c:39
+00a0743c T _qcom_set_encrypt_cfg_from_wps	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_wps.c:71
+00a07480 T _qcom_set_key_index_from_wps	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_wps.c:100
+00a07490 T _qcom_set_pass_cfg_from_wps	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_wps.c:108
+00a074c0 T _qcom_set_bssid_cfg_from_wps	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_wps.c:120
+00a074e4 T _qcom_wps_connect	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_wps.c:132
+00a07580 T patch_sock_selscan	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/select_patch.c:29
+00a07640 T uart_select_patch_install	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/select_patch.c:89
+00a07650 T qcom_sta_register_callbacks	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/user_apps.c:32
+00a07678 T user_pre_init	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/user_apps.c:48
+00a076b0 T _qcom_wps_credentials_set	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/wps_priv.c:225
+00a07748 T _qcom_wps_process	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/wps_priv.c:292
+00a077d4 T _sock_selscan	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/priv_soselect.c:55
+00a0784c T _sock_select	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/priv_soselect.c:102
+00a078f0 T install_patches	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/install_patches.c:16
+00a07960 T patch_rcUpdate_HT	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ratectrl_patch.c:27
+00a07e68 T ratectrl_patch_install	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ratectrl_patch.c:426
+00a07e78 T patch_ro_update_connection_state_metric	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/roaming_patch.c:23
+00a07e94 T wlan_bmiss_send_probe	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/roaming_patch.c:33
+00a07ef8 T patch_ro_bmiss_handler	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/roaming_patch.c:57
+00a07f38 T roaming_patch_install	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/roaming_patch.c:83
+00a07f58 T patch_tx_aggr_add_to_hold_q	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/tx_aggr_patch.c:34
+00a08240 T patch_tx_aggr_install	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/tx_aggr_patch.c:191
+00a08250 T patch_usbpowersave	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/usbhw_api_patch.c:156
+00a0827c T whal_install_patches	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/whal_install_patches.c:14
+00a08298 T patch_ap_disconnect_event	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_ap_patch.c:30
+00a08464 T patch_ap_profile_commit	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_ap_patch.c:125
+00a086f4 T patch_ap_get_extmode	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_ap_patch.c:320
+00a087f0 T wlan_ap_patch_install	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_ap_patch.c:392
+00a0880c T patch_wlan_beacon_current_bss	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_beacon_patch.c:55
+00a088fc T patch_wlan_dtimsync_handler	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_beacon_patch.c:100
+00a08924 T patch_wlan_beacon_config	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_beacon_patch.c:118
+00a0895c T patch_wlan_beacon_probe_recv_mgmt	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_beacon_patch.c:137
+00a08ab8 T wlan_beacon_install_patch	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_beacon_patch.c:240
+00a08ae8 T patch_dev_conn_finish_cb	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_dev_patch.c:467
+00a08afc T patch_wlan_dev_conn_start	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_dev_patch.c:477
+00a08bc4 T wlan_dev_install_patch	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_dev_patch.c:517
+00a08bd4 T _HandleProbeRequest	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_p2p_patch.c:135
+00a08df8 T patch_pmTIMHandler	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_power_patch.c:87
+00a08e2c t patch_pmApPmEnable	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_power_patch.c:102
+00a08eac T wlan_power_patch_install	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_power_patch.c:154
+00a08ec8 T patch_wlan_scheduler_connection_notify	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_scheduler_patch.c:11
+00a0917c T wlan_scheduler_patch_install	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_scheduler_patch.c:132
+00a0918c t iswpsoui	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/../../../src/wlan/include/ieee80211_var.h:297
+00a091c4 t patch_wlan_set_ht_cap	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_umlme_patch.c:37
+00a09288 T patch_mlme_recv_action_frame	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_umlme_patch.c:92
+00a092bc T patch_mlme_recv_assoc_req	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_umlme_patch.c:135
+00a098c8 T patch_mlme_sm_halt	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_umlme_patch.c:477
+00a09904 T patch_mlme_recv_auth_open	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_umlme_patch.c:492
+00a099b8 T patch_mlme_recv_assoc_resp	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_umlme_patch.c:549
+00a09d6c T wlan_umlme_patch_install	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_umlme_patch.c:808
+00a09dac T patch_wmi_get_stats_cmd	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_wmi_patch.c:79
+00a09e70 t dispatch_p2p_fw_misc_cmds	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_wmi_patch.c:143
+00a09eac t dispatch_ioe_power_cmds	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_wmi_patch.c:164
+00a09eec T patch_RegisterWMIDispatchTables	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_wmi_patch.c:189
+00a09f10 t patch_wmi_bssInfo_event	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_wmi_patch.c:201
+00a09fc8 T patch_wmi_scanComplete_event	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_wmi_patch.c:250
+00a0a048 T wlan_wmi_patch_install	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_wmi_patch.c:286
+00a0a07c T _WMI_GetEventAvilCount	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wmi_svc_patch.c:25
+00a0a098 t ANTDivDispatchWmiCmds	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wmi_svc_patch.c:48
+00a0a0a8 T patch_WMI_Init	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wmi_svc_patch.c:72
+00a0a1d4 T patch_WMI_AllocEvent	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wmi_svc_patch.c:188
+00a0a2b0 T CDR_SendCompleteHandler	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wmi_svc_patch.c:296
+00a0a2c0 T patch_WMI_SendEvent	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wmi_svc_patch.c:303
+00a0a3dc T patch_FreeEvt	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wmi_svc_patch.c:408
+00a0a454 T patch_WMI_SendCompleteHandler	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wmi_svc_patch.c:439
+00a0a4b4 T wmi_svc_patch_install	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wmi_svc_patch.c:478
+00a0a4dc T patch_dhc_request	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/dhcp_patch_ioe.c:367
+00a0a744 T patch_dhc_release	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/dhcp_patch_ioe.c:666
+00a0a760 T IsDHCPDone	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/dhcp_patch_ioe.c:927
+00a0a790 T dhcpclnt_patch_install_ioe	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/dhcp_patch_ioe.c:1009
+00a0a7ac T patch_dhs_upcall	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/dhcpsrvr_patch.c:46
+00a0a80c T dhcpsrvr_patch_install	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/dhcpsrvr_patch.c:77
+00a0a81c T install_patches_iot	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/install_patches.c:26
+00a0a87c T patch_ip6_rcv	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/ip6_patch.c:46
+00a0a890 T ip6_rcv_patch_install	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/ip6_patch.c:52
+00a0a8a0 T patch_ip_offload_recv_ip_packet	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/ip_main_patch_ioe.c:1423
+00a0ab00 T patch_ip_offload_recv_packet	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/ip_main_patch_ioe.c:1635
+00a0ab1c T patch_is_tcp_uplink_sock_unconnected_state	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/ip_main_patch_ioe.c:1666
+00a0ab50 T patch_ip_demux	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/ip_main_patch_ioe.c:1699
+00a0abd4 T patch_ip_init	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/ip_main_patch_ioe.c:1811
+00a0abf0 T patch_icmprcv	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/ip_main_patch_ioe.c:2444
+00a0ac2c T patch_ip_reassm	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/ip_main_patch_ioe.c:2461
+00a0ac7c T patch_if_queue_rcvd_pkt	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/ip_main_patch_ioe.c:2500
+00a0aec0 T ip_main_patch_install_ioe	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/ip_main_patch_ioe.c:2651
+00a0af0c T patch_create_eap_m3	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/m1_m4_frame_patch.c:17
+00a0afb4 T m1_m4_patch_install	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/m1_m4_frame_patch.c:67
+00a0afc4 T wmi_p2p_fw_list_persistent_prof_cmd	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/p2p_main_fw_patch.c:1746
+00a0b074 T socket_ipconfig_dhcp_release	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/socketLayer_patch_ioe.c:109
+00a0b08c T socket_ipset_tcp_set_rx_buf	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/socketLayer_patch_ioe.c:117
+00a0b0a8 T patch_dispatch_wlan_socket_cmds	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/socketLayer_patch_ioe.c:126
+00a0b190 T patch_socketLayer_Init	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/socketLayer_patch_ioe.c:230
+00a0b1ac T socket_dnc_handle_command	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/socketLayer_patch_ioe.c:418
+00a0b1d0 T sock_send_dnc_resp_event	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/socketLayer_patch_ioe.c:432
+00a0b248 T socket_dnc_handle_enable_command	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/socketLayer_patch_ioe.c:507
+00a0b2ec T socket_config_dns_server_addr	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/socketLayer_patch_ioe.c:533
+00a0b444 T socket_dns_local_domain	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/socketLayer_patch_ioe.c:689
+00a0b47c T socket_update_host_name	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/socketLayer_patch_ioe.c:698
+00a0b538 T socket_update_dns_data_base	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/socketLayer_patch_ioe.c:726
+00a0b608 T socketlayer_patch_install_ioe	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/socketLayer_patch_ioe.c:931
+00a0b634 T patch_suppl_auth_init_auth	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/suppl_auth_patch.c:35
+00a0b684 T patch_hs_compl_evt	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/suppl_auth_patch.c:61
+00a0b77c T patch_suppl_process_sent_m2	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/suppl_auth_patch.c:132
+00a0b7dc T patch_suppl_process_tkip_cm	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/suppl_auth_patch.c:177
+00a0b810 T patch_suppl_process_m3_evt	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/suppl_auth_patch.c:191
+00a0b970 T suppl_auth_clear_node	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/suppl_auth_patch.c:264
+00a0b9a0 T patch_auth_process_sent_m3	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/suppl_auth_patch.c:279
+00a0ba0c T supp_auth_module_patch_install	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/suppl_auth_patch.c:314
+00a0ba38 T tx_tcp_wakeup	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:60
+00a0ba4c T patch_soisconnecting	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:70
+00a0ba64 T patch_soisconnected	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:78
+00a0bab8 T patch_soisdisconnecting	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:98
+00a0bad0 T patch_soisdisconnected	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:106
+00a0bae8 T patch_sbwakeup	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:114
+00a0bb00 T patch_tcp_drop	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:128
+00a0bb68 T patch_tcp_input	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:156
+00a0ce60 T patch_t_connect	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:1803
+00a0ced0 t copypartdata	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:1861
+00a0cf30 T patch_fix_mbuf	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:1885
+00a0d3f0 T patch_tcp_output	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:2429
+00a0dabc T patch_tcp_socket_closed	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:3316
+00a0dad8 T patch_sofree	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:3331
+00a0db64 T patch_tcp_slowtimo	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:3387
+00a0dc64 T patch_tcp_reass	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:3504
+00a0de80 T patch_sbdrop	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:3683
+00a0df04 T patch_sbflush	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:3753
+00a0df54 T patch_tcp_fasttimo	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:3781
+00a0e0a0 T patch_sosetopt	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:3933
+00a0e0ec T patch_sogetopt	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:3964
+00a0e11c T tcp_patch_install_ioe	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/tcp_patch_ioe.c:3994
+00a0e1ac T patch_inet_timer	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/timeouts_patch.c:48
+00a0e1c0 T patch_iniche_stack_tick_handler	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/timeouts_patch.c:66
+00a0e208 T iniche_resync_iniche_tick	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/timeouts_patch.c:146
+00a0e254 T iniche_get_tps_based_on_wlan_policy	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/timeouts_patch.c:172
+00a0e2e0 T timeouts_patches_install_ioe	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/timeouts_patch.c:211
+00a0e2fc T patch_TXRX_RecycleBuffers	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/txrx_api_patch.c:403
+00a0e4d8 T patch_htc_buffer_dispatcher	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/txrx_api_patch.c:567
+00a0e534 T iot_patch_TXRX_Init	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/txrx_api_patch.c:592
+00a0e5b8 T patch_TXRX_ReturnTxBuffers	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/txrx_api_patch.c:619
+00a0e668 T txrx_api_patches_install	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/txrx_api_patch.c:694
+00a0e69c T _demo_promisc_mode_frame_cb	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/txrx_internal_patch.c:109
+00a0e6ec T patch_TXRX_ProcessRxq	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/txrx_internal_patch.c:136
+00a0f030 T txrx_internal_patch_install	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/txrx_internal_patch.c:767
+00a0f048 T patch_udpdemux	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/udp_patch_ioe.c:27
+00a0f2e4 T patch_udp_alloc	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/udp_patch_ioe.c:345
+00a0f328 T udp_patch_install_ioe	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/udp_patch_ioe.c:382
+00a0f348 T patch_udp_soinput	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/udpsock_patch.c:58
+00a0f41c T patch_udp_userreq	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/udpsock_patch.c:154
+00a0f4c8 T udpsock_patch_install	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/udpsock_patch.c:433
+00a0f4e0 T patch_win_check_80211_recv	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/win_patch.c:17
+00a0f5a8 T win_check_api_patch_install	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/win_patch.c:79
+00a0f5b8 T patch_wmi_tx_power_scale_cmd	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/wlan_wmi_patch.c:63
+00a0f608 T patch_wmi_set_channel_list_cmd	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/wlan_wmi_patch.c:121
+00a0f62c T patch_wmi_setPowerMode_cmd	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/wlan_wmi_patch.c:128
+00a0f688 T wlan_wmi_patch_install_ioe	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/wlan_wmi_patch.c:156
+00a0f6a4 T patch_dispatch_wlan_filtered_promiscuous_cmd	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/wmi_svc_patch_ioe.c:21
+00a0f738 T cdr_misc_common_completed	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/misc_cdr_request.c:15
+00a0f74c T bgr_misc_cdr_initiate	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/misc_cdr_request.c:24
+00a0f790 T cdr_globle_variable_wr	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/misc_cdr_request.c:101
+00a0f7b8 T qcom_print_string	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/print_string.c:12
+00a0f7d8 t FS_FD2BIT	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/qcom_select.c:31
+00a0f7fc t fd_save	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/qcom_select.c:47
+00a0f828 t fdset_save	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/qcom_select.c:63
+00a0f850 t FS_Q2FDS	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/qcom_select.c:79
+00a0f878 t fd_set_init	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/qcom_select.c:94
+00a0f8bc T QCA_FD_ZERO	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/qcom_select.c:110
+00a0f8e0 T QCA_FD_CLR	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/qcom_select.c:128
+00a0f920 T QCA_FD_SET	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/qcom_select.c:151
+00a0f95c T QCA_FD_ISSET	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/qcom_select.c:173
+00a0f980 T qca_fdset_clr	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/qcom_select.c:187
+00a0f9b4 T qcom_select	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/qcom_select.c:202
+00a0fa78 T cdr_sock_common_completed	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/qcom_socket.c:21
+00a0fa8c T BGR_SOCK_CDR_initiate	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/qcom_socket.c:31
+00a0fad0 T qcom_socket	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/qcom_socket.c:54
+00a0faf0 T qcom_bind	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/qcom_socket.c:69
+00a0fb0c T qcom_listen	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/qcom_socket.c:84
+00a0fb28 T qcom_accept	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/qcom_socket.c:97
+00a0fb50 T qcom_connect	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/qcom_socket.c:119
+00a0fb78 T qcom_setsockopt	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/qcom_socket.c:137
+00a0fb98 T qcom_send	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/qcom_socket.c:169
+00a0fbe0 T qcom_sendto	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/qcom_socket.c:198
+00a0fc2c T qcom_recv	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/qcom_socket.c:229
+00a0fc4c T qcom_recvfrom	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/qcom_socket.c:244
+00a0fc70 T qcom_close	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/qcom_socket.c:261
+00a0fc88 t threadx_rtos_cond_init	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/rtos_threadx.c:23
+00a0fc94 t threadx_rtos_cond_signal	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/rtos_threadx.c:32
+00a0fca0 t threadx_rtos_cond_wait	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/rtos_threadx.c:38
+00a0fcac T threadx_rtos_kernel_start	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/rtos_threadx.c:44
+00a0fcb4 T rtos_is_threadx	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/rtos_threadx.c:51
+00a0fcd4 T cdr_host_thread_initiate	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/rtos_threadx.c:81
+00a0fce4 T cdr_host_thread_entry	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/rtos_threadx.c:87
+00a0fd0c T cdr_host_thread_init	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/rtos_threadx.c:108
+00a0fd80 T cdr_tx_pkt_alloc	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/tx_alloc.c:20
+00a0fda8 T cdr_bpool_info_get	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/tx_alloc.c:41
+00a0fdcc T CDR_wmi_dev_init	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_cdr.c:29
+00a0fe1c T CDR_wmi_dev_get	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_cdr.c:46
+00a0fe30 T cdr_wmi_event_handler_init	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_cdr.c:57
+00a0fe3c t cdr_wmi_event_completed	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_cdr.c:63
+00a0fe78 T CDR_wmi_event_send	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_cdr.c:85
+00a0ff00 T CDR_wmi_connect_cmd	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_cdr.c:122
+00a0ff94 T CDR_wmi_addKey_cmd	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_cdr.c:320
+00a1001c T CDR_wmi_set_passphrase_cmd	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_cdr.c:367
+00a1005c T CDR_wmi_scanparams_cmd	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_cdr.c:393
+00a100b4 T CDR_wmi_bssfilter_cmd	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_cdr.c:421
+00a100ec T CDR_wmi_probedSsid_cmd	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_cdr.c:446
+00a10160 T CDR_wmi_startscan_cmd	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_cdr.c:497
+00a101a4 T CDR_wmi_disconnect_cmd	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_cdr.c:526
+00a101c0 T CDR_wmi_set_pmk_cmd	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_cdr.c:541
+00a10204 T CDR_wmi_set_promiscuous_mode	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_cdr.c:565
+00a10234 T CDR_wmi_set_channelParams_cmd	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_cdr.c:675
+00a1026c T CDR_wmi_set_ht_cap_cmd	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_cdr.c:707
+00a102a4 T CDR_wmi_set_channel_cmd	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_cdr.c:730
+00a102d4 T CDR_wmi_dns_get_cmd	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_cdr.c:953
+00a10318 T CDR_wmi_dns_en_cmd	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_cdr.c:979
+00a10340 T CDR_wmi_ip_config_cmd	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_cdr.c:1029
+00a10370 T qcom_switch_mode	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_tmp.c:14
+00a10388 T qcom_dev_connected	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_tmp.c:20
+00a103a4 T qcom_reconnect_tmp	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_tmp.c:54
+00a103d8 T _qcom_host_less_event_filter	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_tmp.c:278
+00a103f0 T qcom_dhcp_clean_from_mac	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_tmp.c:291
+00a10438 T qcom_set_promiscuous_rx_cb_internel	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_tmp.c:312
+00a10444 T qcom_wlan_connect	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_wlan.c:16
+00a10480 T qcom_wlan_disconnect	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_wlan.c:34
+00a10490 T qcom_start_scan	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_wlan.c:42
+00a104b0 T qcom_set_scan_params	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_wlan.c:50
+00a104e8 T qcom_set_bss_filter	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_wlan.c:60
+00a104fc T qcom_set_probed_ssid	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_wlan.c:68
+00a10518 T qcom_hw_set_phy_mode	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_wlan.c:100
+00a10530 T qcom_add_cipher_key	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_wlan.c:132
+00a10558 T qcom_add_wep_key	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_wlan.c:151
+00a10580 T qcom_set_ht_cap	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_wlan.c:251
+00a105a0 T qcom_set_pmk	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_wlan.c:260
+00a105b4 T qcom_set_promiscuous_mode	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_wlan.c:268
+00a105c8 T qcom_hw_set_channel	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_wlan.c:276
+00a105dc T qcom_set_passphrase	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_wlan.c:284
+00a105f4 T qcom_dns_get_request	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_wlan.c:313
+00a1060c T qcom_enable_dns_client	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_wlan.c:319
+00a10620 T qcom_ip_config_request	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_wlan.c:331
+00a10638 T qcom_get_bp_info	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_wlan.c:349
+00a10644 T _txe_byte_allocate	/tmp/components/rel/threadx.ioe/5.6/txe_byte_allocate.c:116
+00a106a0 T _txe_byte_pool_create	/tmp/components/rel/threadx.ioe/5.6/txe_byte_pool_create.c:116
+00a10734 T _txe_event_flags_create	/tmp/components/rel/threadx.ioe/5.6/txe_event_flags_create.c:113
+00a107b4 T _txe_event_flags_delete	/tmp/components/rel/threadx.ioe/5.6/txe_event_flags_delete.c:106
+00a107e0 T _txe_event_flags_get	/tmp/components/rel/threadx.ioe/5.6/txe_event_flags_get.c:115
+00a10824 T _txe_event_flags_set	/tmp/components/rel/threadx.ioe/5.6/txe_event_flags_set.c:103
+00a10850 T _txe_mutex_create	/tmp/components/rel/threadx.ioe/5.6/txe_mutex_create.c:113
+00a108d8 T _txe_mutex_get	/tmp/components/rel/threadx.ioe/5.6/txe_mutex_get.c:113
+00a10920 T _txe_mutex_put	/tmp/components/rel/threadx.ioe/5.6/txe_mutex_put.c:108
+00a10958 T _txe_queue_create	/tmp/components/rel/threadx.ioe/5.6/txe_queue_create.c:116
+00a109f8 T _txe_queue_delete	/tmp/components/rel/threadx.ioe/5.6/txe_queue_delete.c:105
+00a10a24 T _txe_queue_receive	/tmp/components/rel/threadx.ioe/5.6/txe_queue_receive.c:110
+00a10a60 T _txe_queue_send	/tmp/components/rel/threadx.ioe/5.6/txe_queue_send.c:108
+00a10a9c T _txe_semaphore_create	/tmp/components/rel/threadx.ioe/5.6/txe_semaphore_create.c:113
+00a10b1c T _txe_semaphore_get	/tmp/components/rel/threadx.ioe/5.6/txe_semaphore_get.c:106
+00a10b4c T _txe_semaphore_put	/tmp/components/rel/threadx.ioe/5.6/txe_semaphore_put.c:98
+00a10b6c T _txe_thread_create	/tmp/components/rel/threadx.ioe/5.6/txe_thread_create.c:128
+00a10c5c T _txe_thread_delete	/tmp/components/rel/threadx.ioe/5.6/txe_thread_delete.c:104
+00a10c88 T _txe_thread_resume	/tmp/components/rel/threadx.ioe/5.6/txe_thread_resume.c:98
+00a10ca8 T _txe_thread_suspend	/tmp/components/rel/threadx.ioe/5.6/txe_thread_suspend.c:100
+00a10cc8 T _txe_thread_terminate	/tmp/components/rel/threadx.ioe/5.6/txe_thread_terminate.c:106
+00a10cf4 T _tx_event_flags_create	/tmp/components/rel/threadx.ioe/5.6/tx_event_flags_create.c:105
+00a10d40 T _tx_event_flags_delete	/tmp/components/rel/threadx.ioe/5.6/tx_event_flags_delete.c:110
+00a10ddc T _tx_event_flags_get	/tmp/components/rel/threadx.ioe/5.6/tx_event_flags_get.c:119
+00a10ea4 T _tx_event_flags_set	/tmp/components/rel/threadx.ioe/5.6/tx_event_flags_set.c:126
+00a110c0 T _tx_initialize_high_level	/tmp/components/rel/threadx.ioe/5.6/tx_initialize_high_level.c:132
+00a110ec T _tx_initialize_kernel_enter	/tmp/components/rel/threadx.ioe/5.6/tx_initialize_kernel_enter.c:142
+00a11134 T _tx_initialize_low_level	/tmp/components/rel/threadx.ioe/5.6/tx_initialize_low_level.S:118
+00a1116c T _tx_mutex_create	/tmp/components/rel/threadx.ioe/5.6/tx_mutex_create.c:108
+00a111c4 T _tx_mutex_get	/tmp/components/rel/threadx.ioe/5.6/tx_mutex_get.c:122
+00a112a4 T _tx_mutex_priority_change	/tmp/components/rel/threadx.ioe/5.6/tx_mutex_priority_change.c:120
+00a11364 T _tx_mutex_put	/tmp/components/rel/threadx.ioe/5.6/tx_mutex_put.c:135
+00a11568 T _tx_queue_create	/tmp/components/rel/threadx.ioe/5.6/tx_queue_create.c:113
+00a115d0 T _tx_queue_delete	/tmp/components/rel/threadx.ioe/5.6/tx_queue_delete.c:109
+00a1166c T _tx_queue_receive	/tmp/components/rel/threadx.ioe/5.6/tx_queue_receive.c:130
+00a11838 T _tx_queue_send	/tmp/components/rel/threadx.ioe/5.6/tx_queue_send.c:123
+00a11974 T _tx_semaphore_create	/tmp/components/rel/threadx.ioe/5.6/tx_semaphore_create.c:105
+00a119c4 T _tx_semaphore_get	/tmp/components/rel/threadx.ioe/5.6/tx_semaphore_get.c:109
+00a11a44 T _tx_semaphore_put	/tmp/components/rel/threadx.ioe/5.6/tx_semaphore_put.c:108
+00a11ab4 T _tx_thread_create	/tmp/components/rel/threadx.ioe/5.6/tx_thread_create.c:143
+00a11bc0 T _tx_thread_delete	/tmp/components/rel/threadx.ioe/5.6/tx_thread_delete.c:107
+00a11c0c T _tx_thread_identify	/tmp/components/rel/threadx.ioe/5.6/tx_thread_identify.c:105
+00a11c20 T _tx_thread_initialize	/tmp/components/rel/threadx.ioe/5.6/tx_thread_initialize.c:119
+00a11c7c T _tx_thread_resume	/tmp/components/rel/threadx.ioe/5.6/tx_thread_resume.c:115
+00a11cfc T _tx_thread_schedule	/tmp/components/rel/threadx.ioe/5.6/tx_thread_schedule.S:150
+00a11d40 T _tx_thread_shell_entry	/tmp/components/rel/threadx.ioe/5.6/tx_thread_shell_entry.c:119
+00a11dac T _tx_thread_stack_build	/tmp/components/rel/threadx.ioe/5.6/tx_thread_stack_build.S:108
+00a11de0 T _tx_thread_suspend	/tmp/components/rel/threadx.ioe/5.6/tx_thread_suspend.c:118
+00a11e30 T _tx_thread_system_preempt_check	/tmp/components/rel/threadx.ioe/5.6/tx_thread_system_preempt_check.c:112
+00a11e60 T _tx_thread_system_resume	/tmp/components/rel/threadx.ioe/5.6/tx_thread_system_resume.c:144
+00a11f6c T _tx_thread_system_return	/tmp/components/rel/threadx.ioe/5.6/tx_thread_system_return.S:121
+00a11fa8 T _tx_thread_system_suspend	/tmp/components/rel/threadx.ioe/5.6/tx_thread_system_suspend.c:137
+00a12200 T _tx_thread_terminate	/tmp/components/rel/threadx.ioe/5.6/tx_thread_terminate.c:119
+00a1229c T _tx_thread_timeout	/tmp/components/rel/threadx.ioe/5.6/tx_thread_timeout.c:105
+00a122d8 T _xt_context_save	/tmp/components/rel/threadx.ioe/5.6/xtensa_context.S:93
+00a1233c T _xt_context_restore	/tmp/components/rel/threadx.ioe/5.6/xtensa_context.S:226
+00a12378 T Uart_Rx_Pin_Set	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/uartserp/uartserp.c:86
+00a123f8 T Uart_Tx_Pin_Set	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/uartserp/uartserp.c:151
+00a1245c T _StartStopInterruptPolling	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/uartserp/uartserp.c:210
+00a12494 T _InterruptPollCallback	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/uartserp/uartserp.c:226
+00a124bc T _UartTryTransmit	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/uartserp/uartserp.c:259
+00a12524 T _UartReceive	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/uartserp/uartserp.c:306
+00a12578 t UartDevHWTransmit	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/uartserp/uartserp.c:348
+00a12588 t UartDevDrainRX	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/uartserp/uartserp.c:356
+00a125b4 T _UartDevSetBaud	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/uartserp/uartserp.c:369
+00a12600 t UartDevIsrHandler	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/uartserp/uartserp.c:409
+00a1260c T _CatchTxOverFlowError	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/uartserp/uartserp.c:419
+00a1261c T _UartDevDsrHandler	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/uartserp/uartserp.c:432
+00a1267c T _UartDevPortPinsEnableDisable	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/uartserp/uartserp.c:493
+00a126c8 T _UartDevShutDownUart	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/uartserp/uartserp.c:525
+00a126f4 T _UartDevSetupUart	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/uartserp/uartserp.c:535
+00a127fc T UartConfigureRxPolling	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/uartserp/uartserp.c:618
+00a12818 T _UartConfigureRxWake	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/uartserp/uartserp.c:627
+00a128a0 t UartDeviceDirectByteWrite	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/uartserp/uartserp.c:665
+00a128d8 t UartDevIoctl	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/uartserp/uartserp.c:702
+00a1296c t UartDev_Start	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/uartserp/uartserp.c:756
+00a12ac8 T _UartRxPinInterruptHandler	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/uartserp/uartserp.c:864
+00a12aec t UartDev_Init	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/uartserp/uartserp.c:875
+00a12b58 T UARTSERP_HW_module_install	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/uartserp/uartserp.c:913
+00a12b6c T _flash_erase	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/flash_nvramw.c:34
+00a12bc0 T _flash_partial_erase	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/flash_nvramw.c:50
+00a12cac T _flash_block_erase	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/flash_nvramw.c:87
+00a12cbc T _flash_sector_erase	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/flash_nvramw.c:98
+00a12ccc T flash_nvramw_module_install	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/flash_nvramw.c:105
+00a12ce0 T _spi_write_enable	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/spi_nvramw.c:34
+00a12d24 T _spi_write_bytes	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/spi_nvramw.c:56
+00a12e64 T _spi_write	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/spi_nvramw.c:97
+00a12eac T _spi_byte_write	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/spi_nvramw.c:127
+00a12ec0 T spi_nvramw_module_install	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/spi_nvramw.c:145
+00a12ef0 t console_putc_replacement	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/priv_uart.c:117
+00a12f28 t console_serial_event_callback	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/priv_uart.c:164
+00a12f4c t uart_mod_init	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/priv_uart.c:183
+00a12fa4 T uart_mod_start	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/priv_uart.c:207
+00a1301c T uart_rx_start	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/priv_uart.c:242
+00a1302c T Uart_Enumerate	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/priv_uart.c:257
+00a13074 T Uart_Open	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/priv_uart.c:281
+00a130b4 T Uart_SetPara	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/priv_uart.c:306
+00a13100 T Uart_Write	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/priv_uart.c:337
+00a13120 T Uart_Read	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/priv_uart.c:356
+00a13140 T Uart_GetFd	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/priv_uart.c:397
+00a1316c T noise_floor_print	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_event.c:12
+00a131a4 T app_fsm1	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_event.c:34
+00a13200 T my_wifi_conn_callback	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_event.c:68
+00a132a8 T qcom_event_dispatch	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_event.c:108
+00a13438 T user_app_init	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_event.c:211
+00a1344c T cmnos_vnprintf	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_printf.c:49
+00a13944 T qca_parse_ipad	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:214
+00a13a38 T _reverse_string	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:341
+00a13a6c T _reverse_domain_addr6	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:357
+00a13bd8 T _reverse_domain_addr	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:462
+00a13c44 T _dns_query	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:515
+00a13c68 T _dns_query_entry	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:547
+00a13c98 T _dns_query_entry_type	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:579
+00a13cc8 T _dns_query_type	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:617
+00a13d5c T _dnc_sendreq	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:699
+00a13e90 T _dnc_copyout	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:1001
+00a13ee0 T _dnc_copyin	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:1046
+00a13f50 T _dnc_del	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:1099
+00a13f88 T _dnc_ageout	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:1141
+00a13fd0 T _dnc_new	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:1182
+00a13ffc T _dns_check	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:1220
+00a140a0 T _badreply	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:1288
+00a140b0 T _dnc_set_answer	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:1351
+00a141c0 T _dnc_savename	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:1459
+00a14220 T _dns_upcall	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:1524
+00a144a4 T _dnc_lookup	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:1780
+00a14568 T _dns_lookup	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:1899
+00a1458c T _dns_query_do	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:1939
+00a145c4 T _TXTQuery	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:1988
+00a145f4 T _gethostbyname	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:2019
+00a146ac T _prep_reverse_name	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:2082
+00a146f4 T _nslookupr	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:2121
+00a14724 T _gethostbyname2	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:2168
+00a147e0 T _in_reshost	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:3381
+00a1494c T _DncHandleCommands	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:3507
+00a14b54 T _dns_poll_pending_query	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:3627
+00a14c5c T _dns_client_offload_store_handler	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:3702
+00a14e8c T _dns_client_offload_recall_handler	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:3831
+00a14fd0 T _dns_server_init	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnssrvr.c:85
+00a1501c T _dns_server_upcall	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnssrvr.c:112
+00a15148 T _get_hostname	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnssrvr.c:182
+00a15190 T _DnsServerConstructv4Response	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnssrvr.c:207
+00a15344 T _get_ip_for_host	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnssrvr.c:327
+00a15398 T _DHCPv4UpdateDnsdatabase	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnssrvr.c:357
+00a15458 T _DHCPUpdateDnsdatabase	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnssrvr.c:392
+00a15564 T cdr_bgr_initiate	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_bgr.c:57
+00a15574 T cdr_bgr_dispatch	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_bgr.c:65
+00a156ac T cdr_bgr_check_for_msgs	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_bgr.c:150
+00a156d8 T cdr_bgr_init	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_bgr.c:165
+00a15708 T _cdr_initiate	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr.c:24
+00a15754 T cdr_req_next	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr.c:64
+00a15778 T cdr_module_install	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr.c:113
+00a15794 T get_cdr_timer	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_select_handler.c:40
+00a157d4 T tx_wakeup_select_by_so	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_select_handler.c:60
+00a1588c T tx_wakeup_select_by_uart	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_select_handler.c:97
+00a158c0 T select_timeout_handle	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_select_handler.c:109
+00a1592c T cdr_select_request_handle	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_select_handler.c:129
+00a15994 T get_sock_id	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_socket_handler.c:129
+00a159bc T qca_cdr_sock_cb_install	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_socket_handler.c:145
+00a159e0 T qca_cdr_sock_cb_uninstall	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_socket_handler.c:160
+00a15a00 T qca_cdr_sock_timer_install	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_socket_handler.c:172
+00a15a3c T qca_cdr_sock_timer_uninstall	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_socket_handler.c:182
+00a15a70 T qca_cdr_sock_cb_implem	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_socket_handler.c:192
+00a15a94 T qca_accept_top_half	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_socket_handler.c:202
+00a15aec T qca_accept_bottom_half	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_socket_handler.c:244
+00a15b6c T qca_accept_cb	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_socket_handler.c:303
+00a15ba0 T t_recv	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_socket_handler.c:338
+00a15bdc T t_recvfrom	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_socket_handler.c:390
+00a15c38 T cdr_socket_open_request_handle	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_socket_handler.c:423
+00a15c58 T cdr_socket_bind_request_handle	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_socket_handler.c:433
+00a15c78 T cdr_socket_listen_request_handle	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_socket_handler.c:443
+00a15c98 T cdr_socket_accept_request_handle	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_socket_handler.c:453
+00a15cac T qca_connect_cb	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_socket_handler.c:461
+00a15ce0 T qca_connect_timeout_handler	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_socket_handler.c:481
+00a15d08 T qca_connect_top_half	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_socket_handler.c:495
+00a15d64 T cdr_socket_connect_request_handle	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_socket_handler.c:528
+00a15d78 T cdr_socket_setsockopt_request_handle	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_socket_handler.c:536
+00a15d9c T cdr_socket_getsockopt_request_handle	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_socket_handler.c:546
+00a15dc0 T cdr_socket_send_request_handle	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_socket_handler.c:557
+00a15de0 T cdr_socket_sendto_request_handle	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_socket_handler.c:570
+00a15e04 T qca_recv_timeout_handler	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_socket_handler.c:580
+00a15e30 T cdr_socket_recv_request_handle	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_socket_handler.c:617
+00a15e90 T qca_recvfrom_timeout_handler	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_socket_handler.c:645
+00a15eb4 T cdr_socket_recvfrom_request_handle	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_socket_handler.c:656
+00a15f04 T qca_so_closing_flush	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_socket_handler.c:680
+00a15fa0 T cdr_socket_close_request_handle	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_socket_handler.c:725
+00a15fc4 T cdr_dev_get_by_id	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/misc_cdr_handler.c:36
+00a15fdc T cdr_wps_init_request_handle	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/misc_cdr_handler.c:46
+00a16004 T cdr_wps_set_attrs_handle	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/misc_cdr_handler.c:64
+00a160ac T cdr_wps_cancel_request_handle	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/misc_cdr_handler.c:115
+00a160d4 T cdr_globle_variable_wr_handle	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/misc_cdr_handler.c:133
+00a16140 T qca_tcp_send	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/priv_socksend.c:64
+00a161bc T qca_udp_send	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/priv_socksend.c:114
+00a16254 T user_udp_sock_send	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/priv_udp_send.c:40
+00a16408 T tx_alloc_wakeup	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/tx_alloc_handle.c:28
+00a16474 T tx_alloc_timeout_handle	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/tx_alloc_handle.c:51
+00a164c4 T cdr_txbuf_alloc_handle	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/tx_alloc_handle.c:67
+00a16518 T cdr_bpool_info_get_handle	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/tx_alloc_handle.c:91
+00a1652c T tx_state_update	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/tx_buffer.c:32
+00a16560 T TXRX_GetHtcBuffer	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/tx_buffer.c:43
+00a165d0 T htc_buf_alloc	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/tx_buffer.c:69
+00a16604 T tx_buf_init	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/tx_buffer.c:90
+00a1665c T bp_info_get	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/tx_buffer.c:135
+00a166c4 T ar6000EepromGetChainMasks5G	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6000_eeprom_patch.c:27
+00a166e4 T ar6000EepromSetChainMasks5G	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6000_eeprom_patch.c:39
+00a16700 T patch_ar6000TxGainTableOverrideFromEeprom	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6000_eeprom_patch.c:47
+00a167cc T patch_ar6000EepromSetSpurMitigation	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6000_eeprom_patch.c:111
+00a16924 T patch_ar6000EepromGetPaprdTrainerConfig	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6000_eeprom_patch.c:187
+00a16a2c T ar6000EepromGetPaprdCtrl2	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6000_eeprom_patch.c:246
+00a16a60 T ar6000EepromGetPaprdTrainerConfigExt	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6000_eeprom_patch.c:266
+00a16a8c T patch_ar6000SetPowerCalTable	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6000_eeprom_patch.c:286
+00a16c9c T patch_ar6000AdjustPowerPerRate	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6000_eeprom_patch.c:376
+00a16d64 T patch_ar6000SetPowerPerRateTable	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6000_eeprom_patch.c:483
+00a16e34 T ar6000_eeprom_patch_install	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6000_eeprom_patch.c:564
+00a16e7c t ar6000PaprdCleanRetrainTimes	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6000_paprd_patch.c:46
+00a16ea0 t ar6000BackUpRestoreTxGainTable	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6000_paprd_patch.c:57
+00a16fb4 t ar6000AdjustTxGainTableForPaprd	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6000_paprd_patch.c:125
+00a17110 t patch_ar6000PaprdFindTrainingGainIndex	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6000_paprd_patch.c:214
+00a173d8 t patch_ar6000PaprdTrainingStatus	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6000_paprd_patch.c:422
+00a173f0 t patch_ar6000PaprdCalibrationSM	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6000_paprd_patch.c:432
+00a17484 T ar6000PaprdSetupPaprdAgc2	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6000_paprd_patch.c:476
+00a174f0 T patch_ar6000PaprdSetupTraining	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6000_paprd_patch.c:489
+00a17794 t ar6000PaprdXmitTrainingFrame_patch	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6000_paprd_patch.c:1146
+00a17954 T patch_ar6000PaprdRetrainSoftwareAgc_Stage2	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6000_paprd_patch.c:1241
+00a17a30 t patch_ar6000PaprdCheckRetrain	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6000_paprd_patch.c:1320
+00a17a8c T patch_ar6000PaprdHwEnable	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6000_paprd_patch.c:1351
+00a17b30 t patch_ar6000PaprdHwDisable	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6000_paprd_patch.c:1410
+00a17c08 t patch_ar6000PaprdTrainNextGainIndex	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6000_paprd_patch.c:1430
+00a17cd8 T ar6000_paprd_patch_install	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6000_paprd_patch.c:1471
+00a17d2c T patch_ar6000SetChannel	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6000_phy_patch.c:19
+00a17d90 T patch_ar6000WriteMacBBRegs	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6000_phy_patch.c:73
+00a17e04 T ar6000_phy_patch_install	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6000_phy_patch.c:105
+00a17e28 t patch_ar6000NfInitCal	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6000_reset_patch.c:19
+00a17e40 T patch_ar6000WaitReg	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6000_reset_patch.c:71
+00a17e7c T patch_ar6000RxIQCalibration	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6000_reset_patch.c:88
+00a180c0 T ar6000_reset_patch_install	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6000_reset_patch.c:231
+00a180e8 T patch_MAC_DMA_AllocBuffer	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6004_mac_dma_patch.c:52
+00a18124 T ar6004_mac_dma_patch_install	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6004_mac_dma_patch.c:66
+00a1813c T _ANTDIV_enable	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ath_antdiv.c:37
+00a1817c T _ANTDIV_disable	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ath_antdiv.c:63
+00a181b4 T _ANTDIV_getconfig	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ath_antdiv.c:89
+00a181d8 T _ANTDIV_setconfig	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ath_antdiv.c:104
+00a18258 T _ANTDIV_init	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ath_antdiv.c:488
+00a1829c T _ANTDIV_scan	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ath_antdiv.c:503
+00a18938 T _ANTDIV_ant_ctrl_apply	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ath_antdiv.c:1150
+00a18a00 T _wmi_antdiv_sendstats	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ath_antdiv.c:1274
+00a18a40 T _wmi_antdiv_setconfig	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ath_antdiv.c:1290
+00a18a60 T patch_co_select_bt_dev_schedule	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/chop_sched_patch.c:86
+00a18bcc T co_wait_for_cts_timeout	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/chop_sched_patch.c:245
+00a18c18 T _co_self_cts_comp	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/chop_sched_patch.c:269
+00a18c58 T _CoTxCompletionNotification	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/chop_sched_patch.c:285
+00a18c70 T patch_co_chanop_state_dev_pause	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/chop_sched_patch.c:335
+00a18fe0 T patch_co_pause_bt_dev_op	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/chop_sched_patch.c:644
+00a19014 T patch_co_op_end	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/chop_sched_patch.c:658
+00a19078 T patch_co_chanop_state_run	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/chop_sched_patch.c:715
+00a192ac T patch_co_add_bt_dev_op	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/chop_sched_patch.c:925
+00a19330 T patch_co_init	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/chop_sched_patch.c:1753
+00a1936c T chop_install_patch	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/chop_sched_patch.c:1871
+00a193ac T patch_Process_Data_Frame	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ieee80211_input_patch.c:261
+00a193c4 T patch_ProcessSeqNum	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ieee80211_input_patch.c:297
+00a193d8 t patch_Process_Sta_Offload	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ieee80211_input_patch.c:371
+00a194b4 T ieee80211_input_patch_install	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ieee80211_input_patch.c:420
+00a194dc T patch_ar6000AniControl	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/ani_patch.c:75
+00a198d4 T patch_ar6000AniOfdmErrTrigger	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/ani_patch.c:228
+00a19978 T patch_ar6000AniCckErrTrigger	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/ani_patch.c:332
+00a199ec T patch_ar6000AniLowerImmunity	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/ani_patch.c:402
+00a19a40 T patch_ar6000AniResetTables	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/ani_patch.c:507
+00a19ab8 t ar6000ResetAniINIReg_inCurrentMode	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/ani_patch.c:542
+00a19b80 T patch_ar6000AniReset	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/ani_patch.c:585
+00a19cc0 T patch_ar6000EnableAni	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/ani_patch.c:647
+00a19cdc t patch_ar6000AniPoll	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/ani_patch.c:667
+00a19e40 T iot_ani_patch_install	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/ani_patch.c:841
+00a19eb8 T iot_patch_MAC_DMA_PostInit	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/ar6004_mac_dma_patch.c:80
+00a19f84 T iot_patch_MAC_DMA_AllocBuffer	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/ar6004_mac_dma_patch.c:134
+00a1a29c T iot_ar6004_mac_dma_patch_install	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/ar6004_mac_dma_patch.c:359
+00a1a2ac T patch_buf_pool_free	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/buf_pool_patch.c:21
+00a1a390 T patch_buf_pool_calc_allocation	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/buf_pool_patch.c:106
+00a1a44c T buf_pool_patch_install	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/buf_pool_patch.c:186
+00a1a468 T patch_cm_connect_event	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/cnxmgmt_patch.c:34
+00a1a8b0 T cnxmgmt_patch_install	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/cnxmgmt_patch.c:290
+00a1a8c0 T get_dns_server	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/dhcpclnt_patch.c:72
+00a1a8cc T qca_dhc_extract_opts	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/dhcpclnt_patch.c:112
+00a1a960 T patch_dhc_upcall	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/dhcpclnt_patch.c:180
+00a1ac58 T dhcpclnt_patch_install	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/dhcpclnt_patch.c:467
+00a1ac68 T patch_dc_select_channel	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/discovery_patch.c:31
+00a1acfc T discovery_iot_patch_install	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/discovery_patch.c:82
+00a1ad0c T patch_dns_check	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/dnsclnt_patch.c:93
+00a1adbc T patch_dns_poll_pending_query	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/dnsclnt_patch.c:146
+00a1aeb8 T dnsclnt_patch_install	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/dnsclnt_patch.c:204
+00a1aec8 T host_domain_init	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/domain_patch.c:14
+00a1aee0 T target_domain_init	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/domain_patch.c:32
+00a1aeec T _WMI_Dispatch	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/domain_patch.c:61
+00a1afa0 T patch_domain_install	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/domain_patch.c:139
+00a1afc8 T patch_arp_free_pending	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/et_arp_patch_ioe.c:58
+00a1b074 T patch_send_arp	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/et_arp_patch_ioe.c:140
+00a1b2ec T patch_send_via_arp	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/et_arp_patch_ioe.c:333
+00a1b418 T patch_arp_send_pending	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/et_arp_patch_ioe.c:440
+00a1b460 T patch_update_arp_timestamp_rx_on_pkt	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/et_arp_patch_ioe.c:476
+00a1b4c4 T arp_patch_install_ioe	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/et_arp_patch_ioe.c:504
+00a1b4ec T soreceive	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/socket_patch.c:105
+00a1b810 T BGR_CDR_initiate	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/BGR_CDR_initiate.c:16
+00a1b84c T std_done_fn	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/std_done.c:12
+00a1b85c T WMI_CDR_initiate	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/WMI_CDR_initiate.c:18
+00a1b898 t SERPAPI_Init	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/serport/serial_if.c:26
+00a1b8b0 T _NotifyIOThresholdEvent	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/serport/serial_if.c:34
+00a1b8d4 T SerP_CancelTimer	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/serport/serial_if.c:41
+00a1b8f8 t SerP_ScheduleTimer	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/serport/serial_if.c:50
+00a1b928 T SerP_RXTimerCallback	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/serport/serial_if.c:64
+00a1b93c T SerP_TXTimerCallback	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/serport/serial_if.c:72
+00a1b950 T _CleanupSerialPort	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/serport/serial_if.c:80
+00a1b990 t SERPAPI_Close	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/serport/serial_if.c:94
+00a1b9b8 t SERPAPI_Open	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/serport/serial_if.c:106
+00a1ba34 t SERPAPI_Write	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/serport/serial_if.c:153
+00a1ba90 t SERPAPI_Read	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/serport/serial_if.c:198
+00a1baf8 t SERPAPI_Ioctl	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/serport/serial_if.c:248
+00a1bc54 T SERP_module_install	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/serport/serial_if.c:376
+00a1bc84 T _SerPPushBytes	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/serport/serial_port.c:33
+00a1bcd8 T _SerPPopBytes	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/serport/serial_port.c:54
+00a1bd24 t SERHWAPI_RegisterPort	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/serport/serial_port.c:74
+00a1bdcc t SERHWAPI_PushRXBytes	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/serport/serial_port.c:107
+00a1be2c t SERHWAPI_PopTXBytes	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/serport/serial_port.c:145
+00a1be70 t SERHWAPI_IndicatePortEvent	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/serport/serial_port.c:168
+00a1bedc T serport_hw_api_install	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/serport/serial_port.c:200
+00a1bef8 T txqc_xttimer_isr_handler	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:20
+00a1bf00 T txqc_init	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:27
+00a1bf18 T txqc_prep_threadx_scheduler	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:33
+00a1bf30 T txqc_process_dsrs	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:40
+00a1bf94 T txqc_is_meta_scheduler_activity_pending	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:98
+00a1bfc0 T txqc_wait_for_activity	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:123
+00a1bfd0 T _tx_timer_initialize	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:168
+00a1bfd8 T _tx_timer_interrupt	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:173
+00a1bffc T _tx_time_get	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:179
+00a1c024 T _tx_time_set	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:194
+00a1c04c T _tx_timer_activate	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:208
+00a1c058 T _tx_timer_change	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:220
+00a1c080 T _tx_timer_expired	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:242
+00a1c0d0 T _tx_timer_internal_system_init	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:269
+00a1c0f4 T _tx_timer_create	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:284
+00a1c118 T _tx_timer_deactivate	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:304
+00a1c124 T _tx_timer_delete	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:316
+00a1c138 T _tx_timer_performance_info_get	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:331
+00a1c140 T _tx_timer_performance_system_info_get	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:338
+00a1c148 T _tx_timer_system_activate	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:344
+00a1c174 T _tx_timer_system_deactivate	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:360
+00a1c198 T _txe_timer_activate	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:374
+00a1c1a4 T _txe_timer_change	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:380
+00a1c1b4 T _txe_timer_create	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:388
+00a1c1d4 T _txe_timer_deactivate	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:395
+00a1c1e0 T _txe_timer_delete	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:401
+00a1c1ec T _txe_timer_info_get	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:408
+00a1c204 T txqc_pool_start	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:414
+00a1c21c T txqc_app_entry_get	/tmp/components/rel/threadx.ioe/5.6/AR6006.c:429
+00a1c230 T _tx_byte_allocate	/tmp/components/rel/threadx.ioe/5.6/tx_byte_allocate.c:120
+00a1c2e4 T _tx_byte_pool_cleanup	/tmp/components/rel/threadx.ioe/5.6/tx_byte_pool_cleanup.c:112
+00a1c354 T _tx_byte_pool_create	/tmp/components/rel/threadx.ioe/5.6/tx_byte_pool_create.c:117
+00a1c3d8 T _tx_byte_pool_search	/tmp/components/rel/threadx.ioe/5.6/tx_byte_pool_search.c:122
+00a1c4c0 T _tx_event_flags_cleanup	/tmp/components/rel/threadx.ioe/5.6/tx_event_flags_cleanup.c:115
+00a1c530 T _tx_mutex_cleanup	/tmp/components/rel/threadx.ioe/5.6/tx_mutex_cleanup.c:112
+00a1c5a0 T _tx_mutex_thread_release	/tmp/components/rel/threadx.ioe/5.6/tx_mutex_cleanup.c:278
+00a1c60c T _tx_mutex_prioritize	/tmp/components/rel/threadx.ioe/5.6/tx_mutex_prioritize.c:104
+00a1c6bc T _tx_queue_cleanup	/tmp/components/rel/threadx.ioe/5.6/tx_queue_cleanup.c:113
+00a1c730 T _tx_semaphore_cleanup	/tmp/components/rel/threadx.ioe/5.6/tx_semaphore_cleanup.c:112
+00a1c79c T cdr_target_thread_initiate	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_target_thread.c:38
+00a1c7a8 T cdr_target_thread_entry	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_target_thread.c:44
+00a1c7e4 T cdr_target_thread_init	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_target_thread.c:67
+00a1c858 T cdr_wmi_initiate	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_wmi.c:30
+00a1c868 T cdr_wmi_dispatch	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_wmi.c:39
+00a1c8a0 T cdr_wmi_check_for_msgs	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_wmi.c:66
+00a1c8c8 T cdr_wmi_init	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_wmi.c:86
+00a1c8f4 T _pk_copyOut	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2_iot/pktalloc_patch.c:122
+00a1c950 T crc8_calc	/mnt/hgfs/sniffer_lib/user/qca_sniffer.c:285
+00a1c974 T qca_airkiss_variable_init	/mnt/hgfs/sniffer_lib/user/qca_sniffer.c:297
+00a1c9ac T qca_airkiss_lock_guide	/mnt/hgfs/sniffer_lib/user/qca_sniffer.c:324
+00a1cae8 T qca_airkiss_search_magic_prefix	/mnt/hgfs/sniffer_lib/user/qca_sniffer.c:498
+00a1cc94 T qca_airkiss_search_field	/mnt/hgfs/sniffer_lib/user/qca_sniffer.c:639
+00a1d124 T qca_airkiss_wait_finish	/mnt/hgfs/sniffer_lib/user/qca_sniffer.c:931
+00a1d238 T qca_airkiss_callback	/mnt/hgfs/sniffer_lib/user/qca_sniffer.c:1055
+00a1d310 T qca_set_thread_suspend	/mnt/hgfs/sniffer_lib/user/qca_sniffer.c:1163
+00a1d320 T qca_set_sniffer_en	/mnt/hgfs/sniffer_lib/user/qca_sniffer.c:1194
+00a1d348 T qca_get_sniffer_en_status	/mnt/hgfs/sniffer_lib/user/qca_sniffer.c:1225
+00a1d358 T qca_sniffer_wait_finish	/mnt/hgfs/sniffer_lib/user/qca_sniffer.c:1240
+00a1d510 T qca_sniffer_callback	/mnt/hgfs/sniffer_lib/user/qca_sniffer.c:1350
+00a1d640 T qca_lock_channle	/mnt/hgfs/sniffer_lib/user/qca_sniffer.c:1480
+00a1d6c8 T qca_scan_channel_task	/mnt/hgfs/sniffer_lib/user/qca_sniffer.c:1539
+00a1d7a4 T qca_data_callback	/mnt/hgfs/sniffer_lib/user/qca_sniffer.c:1642
+00a1d7d4 T qca_sniffer_scan_ap	/mnt/hgfs/sniffer_lib/user/qca_sniffer.c:1666
+00a1d88c T qca_sniffer_start	/mnt/hgfs/sniffer_lib/user/qca_sniffer.c:1715
+00a1d92c T AES_cbc_core	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/aes/aes_cbc.c:65
+00a1dba8 T AES_CBC_Encrypt	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/aes/aes_cbc.c:166
+00a1dbd0 T AES_CBC_Decrypt	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/aes/aes_cbc.c:185
+00a1dbf8 T AES_set_encrypt_key	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/aes/aes_core.c:743
+00a1dee4 T AES_set_decrypt_key	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/aes/aes_core.c:844
+00a1e0c4 T AES_encrypt	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/aes/aes_core.c:897
+00a1e464 T AES_decrypt	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/aes/aes_core.c:1088
+00a1e7fc T crc_cal_by_bit	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/crc.c:57
+00a1e830 T crc16_ccitt	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/crc.c:133
+00a1e844 T mpi_init	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/tropicssl/bignum.c:70
+00a1e860 T mpi_free	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/tropicssl/bignum.c:83
+00a1e87c T mpi_grow	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/tropicssl/bignum.c:101
+00a1e8a8 T mpi_copy	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/tropicssl/bignum.c:130
+00a1e8fc T mpi_lset	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/tropicssl/bignum.c:169
+00a1e930 T mpi_size	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/tropicssl/bignum.c:220
+00a1e944 T mpi_read_binary	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/tropicssl/bignum.c:385
+00a1e9c4 T mpi_write_binary	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/tropicssl/bignum.c:407
+00a1ea20 T mpi_shift_l	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/tropicssl/bignum.c:426
+00a1eac4 T mpi_cmp_int	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/tropicssl/bignum.c:580
+00a1eae8 T mpi_add_abs	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/tropicssl/bignum.c:596
+00a1eb98 T mpi_sub_abs	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/tropicssl/bignum.c:671
+00a1ec04 T mpi_add_mpi	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/tropicssl/bignum.c:707
+00a1ec58 T mpi_sub_mpi	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/tropicssl/bignum.c:732
+00a1ecac T mpi_mul_mpi	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/tropicssl/bignum.c:831
+00a1ed78 T mpi_mul_int	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/tropicssl/bignum.c:873
+00a1ed94 T mpi_div_mpi	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/tropicssl/bignum.c:891
+00a1f11c T mpi_mod_mpi	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/tropicssl/bignum.c:1063
+00a1f16c t mpi_montmul	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/tropicssl/bignum.c:1151
+00a1f228 t mpi_montred	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/tropicssl/bignum.c:1188
+00a1f248 T mpi_exp_mod	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/tropicssl/bignum.c:1205
+00a1f62c T rsa_init	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/tropicssl/rsa.c:54
+00a1f64c T rsa_public	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/tropicssl/rsa.c:140
+00a1f6b0 T rsa_private	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/tropicssl/rsa.c:171
+00a1f798 T rsa_pkcs1_encrypt	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/tropicssl/rsa.c:228
+00a1f81c T rsa_pkcs1_decrypt	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/tropicssl/rsa.c:274
+00a1f8a0 T rsa_free	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/tropicssl/rsa.c:325
+00a1f8fc T EVENT_ParseOption	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_cloud_event.c:139
+00a1f960 T MSG_InitQueue	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_message_queue.c:54
+00a1f988 T MSG_PushMsg	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_message_queue.c:80
+00a1f9a0 T MSG_PopMsg	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_message_queue.c:100
+00a1f9c0 T PCT_ConnectCloud	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/zc/zc_protocol_controller.c:301
+00a1f9e4 T __divsi3	/home/customer/tree/RD-2012.4/tools/swtools-x86-linux/xtensa-elf/src/libgcc-xcc/config/xtensa/lib1funcs.asm:617
+00a1fa4c T __modsi3	/home/customer/tree/RD-2012.4/tools/swtools-x86-linux/xtensa-elf/src/libgcc-xcc/config/xtensa/lib1funcs.asm:761
+00a1fa98 T __udivsi3	/home/customer/tree/RD-2012.4/tools/swtools-x86-linux/xtensa-elf/src/libgcc-xcc/config/xtensa/lib1funcs.asm:548
+00a1fae8 T __umodsi3	/home/customer/tree/RD-2012.4/tools/swtools-x86-linux/xtensa-elf/src/libgcc-xcc/config/xtensa/lib1funcs.asm:703
+00a1fb28 T _qcom_HTC_ReturnBuffers	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_system.c:107
+00a1fb30 T qcom_event_filter_cb_forstart	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/user_apps.c:24
+00a1fb38 T _ifd_clr	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/priv_soselect.c:171
+00a1fb6c T _ifd_set	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/priv_soselect.c:201
+00a1fb80 T _ifd_isset	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/priv_soselect.c:222
+00a1fb9c T _ifd_get	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/priv_soselect.c:245
+00a1fbb0 T whal_pre_init_callback	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/whal_install_patches.c:38
+00a1fbb8 t WLAN_WMI_directbuf_event_sent_null	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_p2p_patch.c:130
+00a1fbc0 t wmi_get_stats_delivered	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/wlan_wmi_patch.c:73
+00a1fbc8 T qcom_reg_read	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/phost/wmi_tmp.c:26
+00a1fbd4 T _tx_thread_interrupt_control	/tmp/components/rel/threadx.ioe/5.6/tx_thread_interrupt_control.S:103
+00a1fbf0 T _xt_user_exit	/tmp/components/rel/threadx.ioe/5.6/xtensa_vectors.S:476
+00a1fc04 t DisableUartInterrupts	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/uartserp/uartserp.c:241
+00a1fc28 t EnableUartInterrupts	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/uartserp/uartserp.c:250
+00a1fc48 T trigger_dsr1	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/uartserp/uartserp.c:397
+00a1fc54 T _CatchRxOverFlowError	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/uartserp/uartserp.c:425
+00a1fc5c t _console_process_char	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/priv_uart.c:141
+00a1fc64 T sys_time_print	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/qcom_event.c:29
+00a1fc6c T qca_atoi	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:132
+00a1fc9c T qca_strcat	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:156
+00a1fcc0 T qca_strchr	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:182
+00a1fcd4 T _getshort	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:1303
+00a1fcec T _getlong	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:1315
+00a1fd14 T _getoffset	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/ipstack/dns/dnsclnt.c:1329
+00a1fd44 T _cdr_completed	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr.c:82
+00a1fd54 T cdr_handler_register	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr.c:94
+00a1fd68 T _cdr_init	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr.c:106
+00a1fd70 T cdr_socket_set_completed_flag	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_socket_handler.c:122
+00a1fd7c T soreceive_is_block	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/cdr_socket_handler.c:594
+00a1fdac T cdr_misc_set_completed_flag	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/misc_cdr_handler.c:28
+00a1fdb4 T qca_so_check	/opt/tmp/olcaIOT3.1FC.36/sw/target/src/domain/priv_socksend.c:49
+00a1fddc T patch_ar6000SetPaprdReducedPower	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ar6000_eeprom_patch.c:541
+00a1fe00 T _alt_check	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ath_antdiv.c:149
+00a1fe48 T _adjust_fast_div_bias_tp	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ath_antdiv.c:176
+00a20194 T _tune_comb_LNA1_value	/opt/tmp/olcaIOT3.1FC.36/sw/target/patch/AR6006/v2/ath_antdiv.c:473
+00a201ac T _SerPFlushBuffer	/opt/tmp/olcaIOT3.1FC.36/sw/target/apps/lib/hostless/serport/serial_port.c:24
+00a201bc T mpi_msb	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/tropicssl/bignum.c:202
+00a201f8 T mpi_shift_r	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/tropicssl/bignum.c:472
+00a20278 T mpi_cmp_abs	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/tropicssl/bignum.c:509
+00a202e0 T mpi_cmp_mpi	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/tropicssl/bignum.c:542
+00a20360 t mpi_sub_hlp	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/tropicssl/bignum.c:647
+00a203ac t mpi_mul_hlp	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/tropicssl/bignum.c:789
+00a20d78 t mpi_montg_init	/mnt/hgfs/QCA4004/R3.1_release/R3.1_release/demos/sdk_shell/ZC/src/tropicssl/bignum.c:1130
+00a20dac T __ashldi3	/home/customer/tree/RD-2012.4/tools/swtools-x86-linux/xtensa-elf/src/libgcc-xcc/config/xtensa/lib1funcs.asm:833
+00a20dc4 T __ashrdi3	/home/customer/tree/RD-2012.4/tools/swtools-x86-linux/xtensa-elf/src/libgcc-xcc/config/xtensa/lib1funcs.asm:854
+00a20de0 T __lshrdi3	/home/customer/tree/RD-2012.4/tools/swtools-x86-linux/xtensa-elf/src/libgcc-xcc/config/xtensa/lib1funcs.asm:875
+00a20df8 T _etext
+00a20df8 A _text_end
+00a20e00 t locfmt$15956_11_2
+00a20e10 t locfmt$15957_11_3
+00a20e30 t locfmt$15958_11_4
+00a20e50 t locfmt$15959_11_5
+00a20e70 t locfmt$15960_11_6
+00a20e90 t locfmt$15961_11_7
+00a20eb0 t locfmt$16179_24_2
+00a20ed0 t locfmt$16205_28_2
+00a20ee0 t locfmt$10421_4_5
+00a20f20 t locfmt$10422_4_6
+00a20f40 t locfmt$10423_4_7
+00a20f50 t locfmt$10424_4_8
+00a20f58 t locfmt$10425_4_9
+00a20f60 t locfmt$10429_4_10
+00a20f70 t locfmt$13824_8_6
+00a20f90 t locfmt$13829_8_12
+00a20fb0 t locfmt$13830_8_13
+00a20fd0 t locfmt$13982_23_4
+00a21000 t locfmt$13983_23_5
+00a21010 t locfmt$13985_23_7
+00a21030 t locfmt$13988_23_8
+00a21060 t locfmt$13990_23_9
+00a21080 t locfmt$13992_23_10
+00a210a0 t locfmt$13994_23_11
+00a210c0 t locfmt$13996_23_12
+00a210e0 t locfmt$13998_23_13
+00a21100 t locfmt$14000_23_14
+00a21120 t locfmt$14235_2_26
+00a21140 t locfmt$17047_16_14
+00a21148 t locfmt$17048_16_15
+00a21150 t locfmt$17074_22_27
+00a21170 t locfmt$17978_4_6
+00a21190 t locfmt$18401_14_1
+00a211b0 t locfmt$18135_2_2
+00a211d0 t locfmt$18297_5_16
+00a211f0 t locfmt$18298_5_18
+00a21230 t locfmt$18299_5_19
+00a21270 t locfmt$18300_5_20
+00a212b0 t locfmt$18301_5_21
+00a212d0 t locfmt$18302_5_22
+00a21310 t locfmt$18525_6_12
+00a21340 t locfmt$18527_6_13
+00a21370 t locfmt$18531_6_17
+00a21390 t locfmt$18856_10_23
+00a213c0 t locfmt$18857_10_24
+00a213f0 t locfmt$18859_10_26
+00a21410 t locfmt$18860_10_27
+00a21440 t locfmt$18862_10_29
+00a21460 t locfmt$19096_11_34
+00a21468 t locfmt$19097_11_35
+00a21470 t locfmt$19344_13_11
+00a21490 t locfmt$20495_34_1
+00a214b0 t locfmt$17642_5_3
+00a214e0 t locfmt$17650_7_4
+00a214f0 t locfmt$17676_8_8
+00a21510 t locfmt$17713_16_2
+00a21530 t locfmt$17734_17_12
+00a21550 t locfmt$17735_17_13
+00a21590 t locfmt$17773_9_4
+00a215a0 t locfmt$17814_19_7
+00a215c0 t locfmt$17842_20_7
+00a215e0 t locfmt$17870_21_7
+00a21600 t locfmt$17901_10_6
+00a21620 t locfmt$17902_10_8
+00a21640 t locfmt$17942_11_7
+00a21650 t locfmt$17944_11_8
+00a21670 t locfmt$17945_11_9
+00a21690 t locfmt$17948_11_11
+00a216a0 t locfmt$18050_22_12
+00a216b0 t locfmt$18144_12_4
+00a216d0 t locfmt$18164_13_7
+00a216f0 t locfmt$18206_14_6
+00a21720 t locfmt$18207_14_8
+00a21750 t locfmt$18270_26_4
+00a21760 t locfmt$18283_27_4
+00a21780 t locfmt$18359_31_7
+00a217a0 t locfmt$18441_34_1
+00a217c0 t locfmt$15022_22_8
+00a217d0 t locfmt$15024_22_10
+00a217f0 t locfmt$15856_15_4
+00a21820 t locfmt$15933_16_37
+00a21840 t locfmt$17311_19_16
+00a21860 t locfmt$17316_19_19
+00a21890 t locfmt$17323_19_27
+00a218b0 t locfmt$17324_19_28
+00a218e0 t locfmt$17331_19_36
+00a21900 t locfmt$17332_19_37
+00a21910 t locfmt$17334_19_38
+00a21930 t locfmt$17788_20_17
+00a21950 t locfmt$17797_20_26
+00a21960 t locfmt$19062_30_1
+00a21980 t locfmt$16849_9_1
+00a219a0 t locfmt$16688_24_3
+00a219c0 t locfmt$16727_25_8
+00a219f0 t locfmt$16780_26_1
+00a21a10 t locfmt$15813_17_6
+00a21a30 t locfmt$15814_17_7
+00a21a40 t locfmt$15815_17_8
+00a21a50 t locfmt$15729_5_1
+00a21a70 t locfmt$14636_2_5
+00a21a90 t locfmt$14702_6_8
+00a21ac0 t locfmt$13848_10_4
+00a21af0 t locfmt$13849_10_5
+00a21b20 t locfmt$13850_10_6
+00a21b40 t locfmt$13851_10_7
+00a21b50 t locfmt$13852_10_8
+00a21b70 t locfmt$13853_10_9
+00a21b80 t locfmt$13854_10_10
+00a21ba0 t locfmt$13855_10_11
+00a21bb0 t locfmt$13856_10_12
+00a21bd0 t locfmt$13857_10_13
+00a21be0 t locfmt$13858_10_14
+00a21c00 t locfmt$13859_10_15
+00a21c10 t locfmt$13860_10_16
+00a21c30 t locfmt$13861_10_17
+00a21c40 t locfmt$13862_10_18
+00a21c60 t locfmt$13863_10_19
+00a21c70 t locfmt$13864_10_20
+00a21c90 t locfmt$13865_10_21
+00a21ca0 t locfmt$13866_10_22
+00a21cc0 t locfmt$13867_10_23
+00a21cd0 t locfmt$13868_10_24
+00a21cf0 t locfmt$13869_10_25
+00a21d00 t locfmt$13870_10_26
+00a21d20 t locfmt$13871_10_27
+00a21d30 t locfmt$13872_10_28
+00a21d60 t locfmt$13873_10_29
+00a21d80 t locfmt$13874_10_30
+00a21d90 t locfmt$13875_10_31
+00a21db0 t locfmt$13876_10_32
+00a21dd0 t locfmt$13877_10_33
+00a21de0 t locfmt$13881_10_34
+00a21e20 t locfmt$13882_10_35
+00a21e70 t locfmt$13883_10_36
+00a21e90 t locfmt$13884_10_37
+00a21ea0 t locfmt$13885_10_38
+00a21ed0 t locfmt$13886_10_39
+00a21f00 t locfmt$13887_10_40
+00a21f10 t locfmt$13888_10_41
+00a21f40 t locfmt$13889_10_42
+00a21f50 t locfmt$13890_10_43
+00a21f70 t locfmt$13891_10_44
+00a21f80 t locfmt$13892_10_45
+00a21fa0 t locfmt$13893_10_46
+00a21fb0 t locfmt$13894_10_47
+00a21fd0 t locfmt$13895_10_48
+00a21ff0 t locfmt$13900_10_49
+00a22010 t locfmt$13901_10_50
+00a22020 t locfmt$13902_10_51
+00a22040 t locfmt$13903_10_52
+00a22070 t locfmt$13904_10_53
+00a22090 t locfmt$13905_10_54
+00a220a0 t locfmt$13906_10_55
+00a220d0 t locfmt$14016_13_4
+00a220f0 t locfmt$17949_27_8
+00a22100 t locfmt$18028_29_5
+00a22120 t locfmt$18045_30_3
+00a22140 t locfmt$18062_31_8
+00a22160 t locfmt$18063_31_9
+00a22190 t locfmt$18150_34_5
+00a221b0 t locfmt$18152_34_6
+00a221d0 t locfmt$18229_35_15
+00a22200 t locfmt$18232_35_16
+00a22210 t locfmt$18233_35_17
+00a22220 t locfmt$18234_35_18
+00a22230 t locfmt$18235_35_19
+00a22250 t locfmt$18336_36_10
+00a22260 t locfmt$18337_36_11
+00a22280 t locfmt$18338_36_12
+00a222a0 t locfmt$18339_36_13
+00a222c0 t locfmt$18340_36_14
+00a222d0 t locfmt$18485_38_5
+00a222f0 t locfmt$18486_38_6
+00a22310 t locfmt$18487_38_7
+00a22320 t locfmt$18594_39_11
+00a22340 t locfmt$18596_39_13
+00a22360 t locfmt$18597_39_14
+00a22380 t locfmt$18599_39_16
+00a223a0 t locfmt$18603_39_17
+00a223c0 t locfmt$16450_3_17
+00a223e0 t locfmt$16451_3_18
+00a22400 t locfmt$16452_3_19
+00a22420 t locfmt$16453_3_20
+00a22440 t locfmt$16560_5_14
+00a22450 t locfmt$16561_5_15
+00a22470 t locfmt$16562_5_16
+00a22490 t locfmt$16685_7_5
+00a224a0 t locfmt$16751_8_8
+00a224c0 t locfmt$10690_4_6
+00a224d0 t locfmt$10712_4_7
+00a22500 t locfmt$16659_31_5
+00a22530 t locfmt$16714_33_5
+00a22560 t locfmt$16751_34_6
+00a22570 t locfmt$16755_34_7
+00a225a0 t locfmt$15514_7_4
+00a225d0 t locfmt$16004_3_9
+00a22600 t locfmt$15981_2_11
+00a22620 t locfmt$15982_2_13
+00a22630 t locfmt$15983_2_14
+00a22640 t locfmt$15984_2_15
+00a22650 t locfmt$15985_2_16
+00a22660 t locfmt$15986_2_17
+00a22670 t locfmt$15987_2_18
+00a22680 t locfmt$15997_2_19
+00a226a0 t locfmt$15499_18_12
+00a226c0 t locfmt$16485_3_5
+00a226e0 t locfmt$16486_3_6
+00a22700 t locfmt$16487_3_7
+00a22710 t locfmt$16125_15_9
+00a22720 t locfmt$16127_15_10
+00a22730 t locfmt$16128_15_11
+00a22760 t locfmt$16170_16_12
+00a22770 t locfmt$16176_16_18
+00a22790 t locfmt$16188_16_27
+00a227b0 t locfmt$16330_17_7
+00a227c0 t locfmt$16337_17_11
+00a227e0 t locfmt$16338_17_14
+00a227f0 t locfmt$16473_20_1
+00a22810 t locfmt$11657_4_3
