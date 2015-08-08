@@ -13,6 +13,4 @@ si/*
 .svn
 *.bak
 .output
-demos/sdk_shell/ZC/*.c
-demos/sdk_shell/ZC/*.h
 !Makefile
