@@ -1,0 +1,3 @@
+[submodule "demos/sdk_shell/ZC"]
+	path = demos/sdk_shell/ZC
+	url = https://github.com/sdhczw/ZC.git
