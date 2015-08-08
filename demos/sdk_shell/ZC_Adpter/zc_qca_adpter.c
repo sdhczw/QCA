@@ -1140,7 +1140,6 @@ void QC_Init()
 
     QC_LoadPartition();
     
-    ZC_Printf("MT Init\n");
 
     g_struQcAdapter.pfunConnectToCloud = QC_ConnectToCloud;
     g_struQcAdapter.pfunListenClient = QC_ListenClient;
@@ -1157,7 +1156,9 @@ void QC_Init()
     g_struQcAdapter.pfunReboot= QC_Reboot;
     g_u16TcpMss = 1000;
     PCT_Init(&g_struQcAdapter);
-
+    
+    ZC_Printf("MT Init\n");
+    
     g_struUartBuffer.u32Status = MSG_BUFFER_IDLE;
     g_struUartBuffer.u32RecvLen = 0;
 
