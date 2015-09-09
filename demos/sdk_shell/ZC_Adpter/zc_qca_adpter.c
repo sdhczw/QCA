@@ -1153,7 +1153,11 @@ void QC_Init()
     g_struQcAdapter.pfunWriteFlash = QC_WriteDataToFlash;
     g_struQcAdapter.pfunRest = QC_Rest;
     g_struQcAdapter.pfunGetMac = QC_GetMac;  
-    g_struQcAdapter.pfunReboot= QC_Reboot;
+    g_struQcAdapter.pfunReboot = QC_Reboot;
+    g_struQcAdapter.pfunPrintf = (pFunPrintf)A_PRINTF;
+    g_struQcAdapter.pfunMalloc = (pFunMalloc)qcom_mem_alloc;
+    g_struQcAdapter.pfunFree = qcom_mem_free;
+    
     g_u16TcpMss = 1000;
     PCT_Init(&g_struQcAdapter);
     
